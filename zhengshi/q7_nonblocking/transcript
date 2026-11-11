@@ -1,0 +1,52 @@
+# Reading pref.tcl
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# do run_gui.do
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 23:01:17 on Nov 11,2026
+# vlog -reportprogress 300 blocking_cmp.v blocking_cmp_tb.v 
+# -- Compiling module blocking_cmp
+# -- Compiling module blocking_cmp_tb
+# 
+# Top level modules:
+# 	blocking_cmp_tb
+# End time: 23:01:17 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" blocking_cmp_tb 
+# Start time: 23:01:17 on Nov 11,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# Loading work.blocking_cmp_tb(fast)
+# Loading work.blocking_cmp(fast)
+# time  a   b_n c_n  b_b c_b
+# ---- ---- ---- ---- ---- ----
+# 26000  0   0   0   0   0
+# 36000  1   1   0   1   1
+# 46000  2   2   1   2   2
+# 56000  3   3   2   3   3
+# 66000  4   4   3   4   4
+# 76000  5   5   4   5   5
+# 86000  6   6   5   6   6
+# 96000  7   7   6   7   7
+# 106000  8   8   7   8   8
+# 116000  9   9   8   9   9
+# 126000  a   a   9   a   a
+# 136000  b   b   a   b   b
+# 
+# 观察要点：
+#   b_n == b_b  ?  是的，对单个寄存器 <= 和 = 效果相同
+#   c_b == b_n  ?  是的，c_b 只比 a 晚 1 拍
+#   c_n 比 c_b 晚 1 拍  ?  是的，c_n 比 a 晚 2 拍
+# ** Note: $stop    : blocking_cmp_tb.v(64)
+#    Time: 136 ns  Iteration: 0  Instance: /blocking_cmp_tb
+# Break in Module blocking_cmp_tb at blocking_cmp_tb.v line 64

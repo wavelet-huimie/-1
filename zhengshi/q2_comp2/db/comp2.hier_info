@@ -1,0 +1,18 @@
+|comp2
+a[0] => LessThan0.IN2
+a[0] => Equal0.IN1
+a[0] => LessThan1.IN2
+a[1] => LessThan0.IN1
+a[1] => Equal0.IN0
+a[1] => LessThan1.IN1
+b[0] => LessThan0.IN4
+b[0] => Equal0.IN3
+b[0] => LessThan1.IN4
+b[1] => LessThan0.IN3
+b[1] => Equal0.IN2
+b[1] => LessThan1.IN3
+a_gt_b <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+a_eq_b <= Equal0.DB_MAX_OUTPUT_PORT_TYPE
+a_lt_b <= LessThan1.DB_MAX_OUTPUT_PORT_TYPE
+
+

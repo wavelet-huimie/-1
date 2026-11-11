@@ -1,0 +1,40 @@
+# quietly vlib work
+#  quietly vlog *.v
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 21:02:35 on Nov 11,2026
+# vlog casez_mux.v casez_mux_tb.v 
+# -- Compiling module casez_mux
+# -- Compiling module casez_mux_tb
+# 
+# Top level modules:
+# 	casez_mux_tb
+# End time: 21:02:35 on Nov 11,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+#  vsim -voptargs=+acc casez_mux_tb
+# vsim -voptargs="+acc" casez_mux_tb 
+# Start time: 21:02:35 on Nov 11,2026
+# ** Note: (vsim-3812) Design is being optimized...
+# //  ModelSim SE-64 2020.4 Oct 13 2020
+# //
+# //  Copyright 1991-2020 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  ModelSim SE-64 and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading work.casez_mux_tb(fast)
+# Loading work.casez_mux(fast)
+#  run -all
+# PASS  casez_mux : 16384 cases OK
+# ** Note: $stop    : casez_mux_tb.v(69)
+#    Time: 262148 ns  Iteration: 0  Instance: /casez_mux_tb
+# Break in Module casez_mux_tb at casez_mux_tb.v line 69
+# Stopped at casez_mux_tb.v line 69
+#  quit -f
+# End time: 21:02:38 on Nov 11,2026, Elapsed time: 0:00:03
+# Errors: 0, Warnings: 0

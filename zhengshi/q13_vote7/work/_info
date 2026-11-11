@@ -1,0 +1,76 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/xdu_fpga_course/zhengshi/q13_vote7
+T_opt
+!s110 1794390461
+VSm@Z3_<>_P8WNR;VM6TRz3
+Z1 04 8 4 work vote7_tb fast 0
+=1-145afc986e21-6af439bd-85-18a8
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1794402162
+VOYBiRMmB5eg9bGNL<^RiM3
+R1
+=1-145afc986e21-6af46772-179-602c
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+vvote7
+Z4 !s110 1794402161
+!i10b 1
+!s100 2hiH0=A7dhI95:MeE8h^L3
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ib9dGYDj;UBl7JLi;QNi302
+R0
+w1794390360
+8vote7.v
+Fvote7.v
+!i122 1
+L0 10 18
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z8 !s108 1794402161.000000
+Z9 !s107 vote7_tb.v|vote7.v|
+Z10 !s90 vote7.v|vote7_tb.v|
+!i113 0
+Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vvote7_tb
+R4
+!i10b 1
+!s100 dlK_o3nfo8bPgQ0PSaPKa1
+R5
+I]enAm6fe0kZ@PndRVT08I3
+R0
+w1794401987
+8vote7_tb.v
+Fvote7_tb.v
+!i122 1
+L0 9 42
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R2

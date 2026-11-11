@@ -1,0 +1,149 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "fact[0]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[1]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[2]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[3]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[4]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[5]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[6]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[7]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[8]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[9]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[10]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[11]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[12]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[13]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[14]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[15]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[16]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[17]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[18]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[19]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[20]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[21]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[22]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[23]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[24]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[25]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[26]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[27]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[28]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[29]",
+					"strict" : false
+				},
+				{
+					"name" : "fact[30]",
+					"strict" : false
+				},
+				{
+					"name" : "n[1]",
+					"strict" : false
+				},
+				{
+					"name" : "n[2]",
+					"strict" : false
+				},
+				{
+					"name" : "n[3]",
+					"strict" : false
+				},
+				{
+					"name" : "n[0]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

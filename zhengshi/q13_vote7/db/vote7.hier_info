@@ -1,0 +1,23 @@
+|vote7
+vote[0] => Add0.IN2
+vote[0] => count.DATAA
+vote[1] => count.OUTPUTSELECT
+vote[1] => count.OUTPUTSELECT
+vote[2] => count.OUTPUTSELECT
+vote[2] => count.OUTPUTSELECT
+vote[2] => count.OUTPUTSELECT
+vote[3] => count.OUTPUTSELECT
+vote[3] => count.OUTPUTSELECT
+vote[3] => count.OUTPUTSELECT
+vote[4] => count.OUTPUTSELECT
+vote[4] => count.OUTPUTSELECT
+vote[4] => count.OUTPUTSELECT
+vote[5] => count.OUTPUTSELECT
+vote[5] => count.OUTPUTSELECT
+vote[5] => count.OUTPUTSELECT
+vote[6] => count[2].OUTPUTSELECT
+vote[6] => count[1].OUTPUTSELECT
+vote[6] => count[0].OUTPUTSELECT
+pass <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+
+

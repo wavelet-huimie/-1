@@ -1,0 +1,76 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/xdu_fpga_course/zhengshi/q18_factorial
+T_opt
+!s110 1794390866
+VVNJ2N2P>0hhlPkCDU>FZf0
+Z1 04 12 4 work factorial_tb fast 0
+=1-145afc986e21-6af43b52-238-1e28
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1794402184
+V0AJzgEU`3^c^^bY]QeDRD1
+R1
+=1-145afc986e21-6af46787-2ef-7698
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+vfactorial
+Z4 !s110 1794402182
+!i10b 1
+!s100 GOBQLLAYZ6bGT_fD?KY:[2
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I9iVXRU4K:z5T7nR@1G86B0
+R0
+w1794390842
+8factorial.v
+Ffactorial.v
+!i122 2
+L0 10 19
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z8 !s108 1794402182.000000
+Z9 !s107 factorial_tb.v|factorial.v|
+Z10 !s90 factorial.v|factorial_tb.v|
+!i113 0
+Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vfactorial_tb
+R4
+!i10b 1
+!s100 8fPJY1G3BWjWB[>^Gfj3H0
+R5
+IU0O<BBG8SB0@bXV?e:U701
+R0
+w1794401987
+8factorial_tb.v
+Ffactorial_tb.v
+!i122 2
+L0 9 54
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R2

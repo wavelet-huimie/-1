@@ -1,0 +1,41 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "pass",
+					"strict" : false
+				},
+				{
+					"name" : "vote[0]",
+					"strict" : false
+				},
+				{
+					"name" : "vote[1]",
+					"strict" : false
+				},
+				{
+					"name" : "vote[4]",
+					"strict" : false
+				},
+				{
+					"name" : "vote[6]",
+					"strict" : false
+				},
+				{
+					"name" : "vote[5]",
+					"strict" : false
+				},
+				{
+					"name" : "vote[2]",
+					"strict" : false
+				},
+				{
+					"name" : "vote[3]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

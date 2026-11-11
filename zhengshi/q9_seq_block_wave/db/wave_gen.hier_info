@@ -1,0 +1,15 @@
+|wave_gen
+clk => sig_par~reg0.CLK
+clk => sig_seq~reg0.CLK
+clk => cnt[0].CLK
+clk => cnt[1].CLK
+clk => cnt[2].CLK
+rst => sig_par~reg0.ACLR
+rst => sig_seq~reg0.ACLR
+rst => cnt[0].ACLR
+rst => cnt[1].ACLR
+rst => cnt[2].ACLR
+sig_seq <= sig_seq~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sig_par <= sig_par~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

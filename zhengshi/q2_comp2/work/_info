@@ -1,0 +1,86 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/xdu_fpga_course/zhengshi/q2_comp2
+T_opt
+!s110 1794399153
+V<EZ<V7eTTFO6;dkMK:MZF2
+Z1 04 8 4 work comp2_tb fast 0
+=1-145afc986e21-6af45bb1-1ae-674c
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1794401149
+V::J@D4cehoh]CdA9n1H:G1
+R1
+=1-145afc986e21-6af4637d-1ef-fb0
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1794402113
+V`aR>kIK1g2a:feRNfA6L61
+R1
+=1-145afc986e21-6af46740-2f0-3bec
+R2
+R3
+n@_opt2
+R4
+vcomp2
+Z5 !s110 1794402111
+!i10b 1
+!s100 aed9gXYd?:5Ql@9Y_YRFz0
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IEz^9JnTogK<P_3^]E4caa0
+R0
+w1794389207
+8comp2.v
+Fcomp2.v
+!i122 1
+L0 11 13
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z9 !s108 1794402111.000000
+Z10 !s107 comp2_tb.v|comp2.v|
+Z11 !s90 comp2.v|comp2_tb.v|
+!i113 0
+Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vcomp2_tb
+R5
+!i10b 1
+!s100 U730JIhfCjMOP>55F7ReD3
+R6
+I<E4A9aY:nlK=Qj^:IL=j]3
+R0
+w1794401987
+8comp2_tb.v
+Fcomp2_tb.v
+!i122 1
+L0 9 49
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R3

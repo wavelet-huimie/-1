@@ -1,0 +1,76 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/xdu_fpga_course/zhengshi/q15_bit_counter
+T_opt
+!s110 1794390578
+VK]CB_:c_QZ>>Hl1_UY24M2
+Z1 04 14 4 work bit_counter_tb fast 0
+=1-145afc986e21-6af43a31-298-2940
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1794402171
+V9Ui1c<oBLX2Y7@2aOT3@F2
+R1
+=1-145afc986e21-6af4677b-18-5b7c
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+vbit_counter
+Z4 !s110 1794402169
+!i10b 1
+!s100 o@NVQ2:I];z_ZOEn]8<IR2
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IYRUQd]Ej2gC`bF4M6?EYg1
+R0
+w1794390555
+8bit_counter.v
+Fbit_counter.v
+!i122 1
+L0 10 16
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z8 !s108 1794402169.000000
+Z9 !s107 bit_counter_tb.v|bit_counter.v|
+Z10 !s90 bit_counter.v|bit_counter_tb.v|
+!i113 0
+Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vbit_counter_tb
+R4
+!i10b 1
+!s100 D2kIb3SJl`SkA1GfO9kSN0
+R5
+IaYUSV5eJWD9k@U50GM:iD2
+R0
+w1794401987
+8bit_counter_tb.v
+Fbit_counter_tb.v
+!i122 1
+L0 9 41
+R6
+R7
+r1
+!s85 0
+31
+R8
+R9
+R10
+!i113 0
+R11
+R2

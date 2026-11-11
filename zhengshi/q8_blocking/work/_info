@@ -1,0 +1,66 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/xdu_fpga_course/zhengshi/q8_blocking
+T_opt
+!s110 1794402139
+VoNA;?Zi;]1HTk]4QBI7zl0
+04 15 4 work blocking_cmp_tb fast 0
+=1-145afc986e21-6af4675b-70-7d18
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vblocking_cmp
+Z2 !s110 1794402137
+!i10b 1
+!s100 F]Z96SAh3DK6RkTHCjc3R2
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IIIXi6zoWXoW6iimh9FS0>0
+R0
+w1794389684
+8blocking_cmp.v
+Fblocking_cmp.v
+!i122 0
+L0 19 35
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z6 !s108 1794402137.000000
+Z7 !s107 blocking_cmp_tb.v|blocking_cmp.v|
+Z8 !s90 blocking_cmp.v|blocking_cmp_tb.v|
+!i113 0
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vblocking_cmp_tb
+R2
+!i10b 1
+!s100 0d39^R^Jl_QLi[FLHZc[h3
+R3
+IcF?:M:[k;T[Fnl^T[_]PT3
+R0
+w1794401987
+8blocking_cmp_tb.v
+Fblocking_cmp_tb.v
+!i122 0
+L0 12 56
+R4
+R5
+r1
+!s85 0
+31
+R6
+R7
+R8
+!i113 0
+R9
+R1

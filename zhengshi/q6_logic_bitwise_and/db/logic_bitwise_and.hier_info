@@ -1,0 +1,24 @@
+|logic_bitwise_and
+a[0] => WideOr0.IN0
+a[0] => bitwise_and.IN0
+a[1] => WideOr0.IN1
+a[1] => bitwise_and.IN0
+a[2] => WideOr0.IN2
+a[2] => bitwise_and.IN0
+a[3] => WideOr0.IN3
+a[3] => bitwise_and.IN0
+b[0] => WideOr1.IN0
+b[0] => bitwise_and.IN1
+b[1] => WideOr1.IN1
+b[1] => bitwise_and.IN1
+b[2] => WideOr1.IN2
+b[2] => bitwise_and.IN1
+b[3] => WideOr1.IN3
+b[3] => bitwise_and.IN1
+logic_and <= logic_and.DB_MAX_OUTPUT_PORT_TYPE
+bitwise_and[0] <= bitwise_and.DB_MAX_OUTPUT_PORT_TYPE
+bitwise_and[1] <= bitwise_and.DB_MAX_OUTPUT_PORT_TYPE
+bitwise_and[2] <= bitwise_and.DB_MAX_OUTPUT_PORT_TYPE
+bitwise_and[3] <= bitwise_and.DB_MAX_OUTPUT_PORT_TYPE
+
+

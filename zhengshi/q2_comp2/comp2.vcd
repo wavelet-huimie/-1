@@ -1,0 +1,174 @@
+$date
+	Wed Nov 11 21:01:53 2026
+$end
+$version
+	ModelSim Version 2020.4
+$end
+$timescale
+	1ps
+$end
+
+$scope module comp2_tb $end
+$var reg 2 ! a [1:0] $end
+$var reg 2 " b [1:0] $end
+$var wire 1 # a_gt_b $end
+$var wire 1 $ a_eq_b $end
+$var wire 1 % a_lt_b $end
+$var integer 32 & ia $end
+$var integer 32 ' ib $end
+$var integer 32 ( errors $end
+$var reg 1 ) exp_gt $end
+$var reg 1 * exp_eq $end
+$var reg 1 + exp_lt $end
+
+$scope module dut $end
+$var wire 1 , a [1] $end
+$var wire 1 - a [0] $end
+$var wire 1 . b [1] $end
+$var wire 1 / b [0] $end
+$var wire 1 # a_gt_b $end
+$var wire 1 $ a_eq_b $end
+$var wire 1 % a_lt_b $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 !
+b0 "
+x)
+x*
+x+
+b0 &
+b0 '
+b0 (
+0#
+1$
+0%
+0/
+0.
+0-
+0,
+$end
+#1000
+0)
+1*
+0+
+b1 '
+b1 "
+1/
+1%
+0$
+#2000
+0*
+1+
+b10 '
+b10 "
+0/
+1.
+#3000
+b11 '
+b11 "
+1/
+#4000
+b100 '
+b1 &
+b0 '
+b1 !
+b0 "
+0/
+0.
+1-
+0%
+1#
+#5000
+1)
+0+
+b1 '
+b1 "
+1/
+1$
+0#
+#6000
+0)
+1*
+b10 '
+b10 "
+0/
+1.
+1%
+0$
+#7000
+0*
+1+
+b11 '
+b11 "
+1/
+#8000
+b100 '
+b10 &
+b0 '
+b10 !
+b0 "
+0/
+0.
+0-
+1,
+0%
+1#
+#9000
+1)
+0+
+b1 '
+b1 "
+1/
+#10000
+b10 '
+b10 "
+0/
+1.
+1$
+0#
+#11000
+0)
+1*
+b11 '
+b11 "
+1/
+1%
+0$
+#12000
+0*
+1+
+b100 '
+b11 &
+b0 '
+b11 !
+b0 "
+0/
+0.
+1-
+0%
+1#
+#13000
+1)
+0+
+b1 '
+b1 "
+1/
+#14000
+b10 '
+b10 "
+0/
+1.
+#15000
+b11 '
+b11 "
+1/
+1$
+0#
+#16000
+0)
+1*
+b100 '
+b100 &

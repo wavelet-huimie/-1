@@ -1,0 +1,136 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/xdu_fpga_course/zhengshi/q1_counter8
+T_opt
+!s110 1794398352
+VnJYM7CR=lk4S^RJ]ncT<l3
+Z1 04 11 4 work counter8_tb fast 0
+=1-145afc986e21-6af4588f-394-42b4
+Z2 o-quiet -auto_acc_if_foreign -work work
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1794398392
+VzLa9:7T_YQ6c3zdU@77F10
+R1
+=1-145afc986e21-6af458b8-12c-3c18
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1794398475
+Vloj7RDGQ[]KaVbV@LZY3M2
+R1
+=1-145afc986e21-6af4590a-392-7f7c
+Z5 o-quiet -auto_acc_if_foreign -work work +acc
+R3
+n@_opt2
+R4
+R0
+T_opt3
+!s110 1794398542
+V3d<nbDZPocLkCnF0KDb]K2
+R1
+=1-145afc986e21-6af4594e-c1-705c
+R5
+R3
+n@_opt3
+R4
+R0
+T_opt4
+!s110 1794398591
+V^:`XW9iFkQ@ii2JokWTa=1
+R1
+=1-145afc986e21-6af4597f-1f9-2940
+R5
+R3
+n@_opt4
+R4
+R0
+T_opt5
+!s110 1794398800
+VKM[_0gE@L6g<TXG:^?`^Z3
+R1
+=1-145afc986e21-6af45a50-1ac-c20
+R5
+R3
+n@_opt5
+R4
+R0
+T_opt6
+!s110 1794401017
+V8Oe^QVNEIO7AFjaM:7fgm1
+R1
+=1-145afc986e21-6af462f9-16c-61bc
+R5
+R3
+n@_opt6
+R4
+R0
+T_opt7
+!s110 1794410125
+V2[Vn2[ZGCY0:VWflaPdl60
+R1
+=1-145afc986e21-6af4868d-17b-87e4
+R5
+R3
+n@_opt7
+R4
+vcounter8
+Z6 !s110 1794410124
+!i10b 1
+!s100 @fM@KCE_8eMbNUaWNcH5]1
+Z7 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IPY3<30cWSX:cQl@jE@6kE1
+R0
+w1794389070
+8counter8.v
+Fcounter8.v
+!i122 0
+L0 9 14
+Z8 VDg1SIo80bB@j0V0VzS_@n1
+Z9 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z10 !s108 1794410124.000000
+Z11 !s107 counter8_tb.v|counter8.v|
+Z12 !s90 -reportprogress|300|counter8.v|counter8_tb.v|
+!i113 0
+Z13 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vcounter8_tb
+R6
+!i10b 1
+!s100 ]<[FCDdRiZF^^A_I8:]8L3
+R7
+ITRbUc7J0lG`F6Xg:3I6C40
+R0
+w1794401987
+8counter8_tb.v
+Fcounter8_tb.v
+!i122 0
+L0 12 66
+R8
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R3

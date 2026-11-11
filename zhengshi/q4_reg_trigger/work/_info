@@ -1,0 +1,99 @@
+m255
+K4
+z2
+!s11f vlog 2020.4 2020.10, Oct 13 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/xdu_fpga_course/zhengshi/q4_reg_trigger
+T_opt
+!s110 1794389415
+VnX@=Bd63zL<RafEd@HCRc0
+Z1 04 14 4 work reg_trigger_tb fast 0
+=1-145afc986e21-6af435a7-183-77a4
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;2020.4;71
+R0
+T_opt1
+!s110 1794402122
+V6E2M:[0QEC<4X_2iAYY^J3
+R1
+=1-145afc986e21-6af46749-2b2-581c
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+vdff_reg
+Z4 !s110 1794402120
+!i10b 1
+!s100 l^eT526`oKQCik5jZCXB03
+Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IXM43DgYeSO9dTXH?BY5SZ2
+R0
+w1794389070
+8dff_reg.v
+Fdff_reg.v
+!i122 1
+Z6 L0 10 15
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
+r1
+!s85 0
+31
+Z9 !s108 1794402120.000000
+Z10 !s107 reg_trigger_tb.v|reg_trigger.v|dff_reg.v|
+Z11 !s90 dff_reg.v|reg_trigger.v|reg_trigger_tb.v|
+!i113 0
+Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R2
+vreg_trigger
+R4
+!i10b 1
+!s100 Mfn7DNA>:TIfC<bKzfH9K0
+R5
+Ib:>FnK16AW3IcfK26jUi80
+R0
+w1794389386
+8reg_trigger.v
+Freg_trigger.v
+!i122 1
+R6
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2
+vreg_trigger_tb
+R4
+!i10b 1
+!s100 kVLVWDC[j6UUYV5FLFbkL1
+R5
+I]hGLYTT7h^hl5^S9CCXOL1
+R0
+w1794401987
+8reg_trigger_tb.v
+Freg_trigger_tb.v
+!i122 1
+L0 9 62
+R7
+R8
+r1
+!s85 0
+31
+R9
+R10
+R11
+!i113 0
+R12
+R2

@@ -1,0 +1,24 @@
+|bcd60
+clk => tens[0]~reg0.CLK
+clk => tens[1]~reg0.CLK
+clk => tens[2]~reg0.CLK
+clk => units[0]~reg0.CLK
+clk => units[1]~reg0.CLK
+clk => units[2]~reg0.CLK
+clk => units[3]~reg0.CLK
+clr => tens[0]~reg0.ACLR
+clr => tens[1]~reg0.ACLR
+clr => tens[2]~reg0.ACLR
+clr => units[0]~reg0.ACLR
+clr => units[1]~reg0.ACLR
+clr => units[2]~reg0.ACLR
+clr => units[3]~reg0.ACLR
+units[0] <= units[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+units[1] <= units[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+units[2] <= units[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+units[3] <= units[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+tens[0] <= tens[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+tens[1] <= tens[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+tens[2] <= tens[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
