@@ -1,31 +1,31 @@
 # ============================================================
-#  run_gui.do -- ModelSim 一键仿真脚本
+#  run_gui.do -- ModelSim one-click simulation script
 #
-#  打开方式：
-#    A) 双击本目录的 open_sim.bat（最省事）
-#    B) 命令行：vsim -gui -do run_gui.do
-#    C) GUI：File -> Change Directory 选本目录，
-#            再 File -> Open 选 run_gui.do
+#  Usage:
+#    A) Double-click open_sim.bat in this folder (easiest)
+#    B) Command line: vsim -gui -do run_gui.do
+#    C) In GUI: File -> Change Directory to this folder,
+#            then File -> Open and select run_gui.do
 #
-#  说明：
-#    -voptargs=+acc  保留所有信号，波形窗口才看得到
-#    tb 结尾用 $stop 暂停，信号保留，可继续 run
+#  Notes:
+#    -voptargs=+acc  keep all signals visible in waveform window
+#    tb ends with $stop to pause and retain signal values
 # ============================================================
 
 onerror {resume}
 
-# 1) 重建工作库
+# 1) Rebuild work library
 quietly vdel -all -lib work
 quietly vlib work
 
-# 2) 编译 DUT 与 testbench
+# 2) Compile DUT and testbench
 quietly vlog *.v
 
-# 3) 加载 testbench
+# 3) Load testbench
 vsim -voptargs=+acc vote7_tb
 
-# 4) 全部信号加入波形
+# 4) Add all signals to waveform
 add wave -r /vote7_tb/*
 
-# 5) 运行
+# 5) Run
 run -all

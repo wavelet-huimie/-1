@@ -20,27 +20,27 @@
 # ** Warning: (vdel-134) Unable to remove locked optimized design "_opt4".  Locker is ASUS@LAPTOP-QG8LFDUR.
 # ** Warning: (vdel-134) Unable to remove locked optimized design "_opt5".  Locker is ASUS@LAPTOP-QG8LFDUR.
 # ** Warning: (vdel-134) Unable to remove locked optimized design "_opt6".  Locker is ASUS@LAPTOP-QG8LFDUR.
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt7".  Locker is ASUS@LAPTOP-QG8LFDUR.
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 23:15:24 on Nov 11,2026
+# Start time: 00:49:06 on Nov 12,2026
 # vlog -reportprogress 300 counter8.v counter8_tb.v 
 # -- Compiling module counter8
 # -- Compiling module counter8_tb
 # 
 # Top level modules:
 # 	counter8_tb
-# End time: 23:15:24 on Nov 11,2026, Elapsed time: 0:00:00
+# End time: 00:49:06 on Nov 12,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vsim -voptargs="+acc" counter8_tb 
-# Start time: 23:15:24 on Nov 11,2026
+# Start time: 00:49:06 on Nov 12,2026
 # ** Note: (vsim-3812) Design is being optimized...
 # Loading work.counter8_tb(fast)
 # Loading work.counter8(fast)
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: ASUS  Hostname: LAPTOP-QG8LFDUR  ProcessID: 10560
-#           Attempting to use alternate WLF file "./wlftme7105".
+#           Attempting to use alternate WLF file "./wlft9aard2".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftme7105
-# PASS  counter8 : all cases OK
-# ** Note: $stop    : counter8_tb.v(74)
+#           Using alternate file: ./wlft9aard2
+# ** Note: $stop    : counter8_tb.v(34)
 #    Time: 2626 ns  Iteration: 0  Instance: /counter8_tb
-# Break in Module counter8_tb at counter8_tb.v line 74
+# Break in Module counter8_tb at counter8_tb.v line 34

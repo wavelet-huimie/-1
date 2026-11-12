@@ -1,7 +1,7 @@
 # quietly vlib work
 #  quietly vlog *.v
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 21:02:00 on Nov 11,2026
+# Start time: 00:42:11 on Nov 12,2026
 # vlog dff_reg.v reg_trigger.v reg_trigger_tb.v 
 # -- Compiling module dff_reg
 # -- Compiling module reg_trigger
@@ -10,12 +10,12 @@
 # Top level modules:
 # 	dff_reg
 # 	reg_trigger_tb
-# End time: 21:02:00 on Nov 11,2026, Elapsed time: 0:00:00
+# End time: 00:42:11 on Nov 12,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 #  vsim -voptargs=+acc reg_trigger_tb
 # vsim -voptargs="+acc" reg_trigger_tb 
-# Start time: 21:02:00 on Nov 11,2026
-# ** Note: (vsim-3812) Design is being optimized...
+# Start time: 00:42:11 on Nov 12,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # //  ModelSim SE-64 2020.4 Oct 13 2020
 # //
 # //  Copyright 1991-2020 Mentor Graphics Corporation
@@ -32,11 +32,10 @@
 # Loading work.reg_trigger_tb(fast)
 # Loading work.reg_trigger(fast)
 #  run -all
-# PASS  reg_trigger : all cases OK
-# ** Note: $stop    : reg_trigger_tb.v(67)
+# ** Note: $stop    : reg_trigger_tb.v(37)
 #    Time: 126 ns  Iteration: 0  Instance: /reg_trigger_tb
-# Break in Module reg_trigger_tb at reg_trigger_tb.v line 67
-# Stopped at reg_trigger_tb.v line 67
+# Break in Module reg_trigger_tb at reg_trigger_tb.v line 37
+# Stopped at reg_trigger_tb.v line 37
 #  quit -f
-# End time: 21:02:02 on Nov 11,2026, Elapsed time: 0:00:02
+# End time: 00:42:13 on Nov 12,2026, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0

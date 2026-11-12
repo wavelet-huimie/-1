@@ -1,19 +1,19 @@
 # quietly vlib work
 #  quietly vlog *.v
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 21:02:22 on Nov 11,2026
+# Start time: 00:42:28 on Nov 12,2026
 # vlog wave_gen.v wave_gen_tb.v 
 # -- Compiling module wave_gen
 # -- Compiling module wave_gen_tb
 # 
 # Top level modules:
 # 	wave_gen_tb
-# End time: 21:02:22 on Nov 11,2026, Elapsed time: 0:00:00
+# End time: 00:42:28 on Nov 12,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 #  vsim -voptargs=+acc wave_gen_tb
 # vsim -voptargs="+acc" wave_gen_tb 
-# Start time: 21:02:22 on Nov 11,2026
-# ** Note: (vsim-3812) Design is being optimized...
+# Start time: 00:42:28 on Nov 12,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # //  ModelSim SE-64 2020.4 Oct 13 2020
 # //
 # //  Copyright 1991-2020 Mentor Graphics Corporation
@@ -30,74 +30,10 @@
 # Loading work.wave_gen_tb(fast)
 # Loading work.wave_gen(fast)
 #  run -all
-# time  sig_seq  sig_par   match?
-# ----  -------  -------   ------
-#  0ns   0        0       YES
-#  1ns   0        0       YES
-#  2ns   0        0       YES
-#  3ns   0        0       YES
-#  4ns   0        0       YES
-#  5ns   0        0       YES
-#  6ns   0        0       YES
-#  7ns   0        0       YES
-#  8ns   0        0       YES
-#  9ns   0        0       YES
-# 10ns   1        1       YES
-# 11ns   1        1       YES
-# 12ns   1        1       YES
-# 13ns   1        1       YES
-# 14ns   1        1       YES
-# 15ns   1        1       YES
-# 16ns   1        1       YES
-# 17ns   1        1       YES
-# 18ns   1        1       YES
-# 19ns   1        1       YES
-# 20ns   0        0       YES
-# 21ns   0        0       YES
-# 22ns   0        0       YES
-# 23ns   0        0       YES
-# 24ns   0        0       YES
-# 25ns   0        0       YES
-# 26ns   0        0       YES
-# 27ns   0        0       YES
-# 28ns   0        0       YES
-# 29ns   0        0       YES
-# 30ns   1        1       YES
-# 31ns   1        1       YES
-# 32ns   1        1       YES
-# 33ns   1        1       YES
-# 34ns   1        1       YES
-# 35ns   1        1       YES
-# 36ns   1        1       YES
-# 37ns   1        1       YES
-# 38ns   1        1       YES
-# 39ns   1        1       YES
-# 40ns   0        0       YES
-# 41ns   0        0       YES
-# 42ns   0        0       YES
-# 43ns   0        0       YES
-# 44ns   0        0       YES
-# 45ns   0        0       YES
-# 46ns   0        0       YES
-# 47ns   0        0       YES
-# 48ns   0        0       YES
-# 49ns   0        0       YES
-# 50ns   1        1       YES
-# 51ns   1        1       YES
-# 52ns   1        1       YES
-# 53ns   1        1       YES
-# 54ns   1        1       YES
-# 55ns   1        1       YES
-# 56ns   1        1       YES
-# 57ns   1        1       YES
-# 58ns   1        1       YES
-# 59ns   1        1       YES
-# 60ns   1        1       YES
-# PASS  wave_gen : seq_block vs par_block match 61/61
-# ** Note: $stop    : wave_gen_tb.v(49)
+# ** Note: $stop    : wave_gen_tb.v(24)
 #    Time: 61 ns  Iteration: 0  Instance: /wave_gen_tb
-# Break in Module wave_gen_tb at wave_gen_tb.v line 49
-# Stopped at wave_gen_tb.v line 49
+# Break in Module wave_gen_tb at wave_gen_tb.v line 24
+# Stopped at wave_gen_tb.v line 24
 #  quit -f
-# End time: 21:02:24 on Nov 11,2026, Elapsed time: 0:00:02
+# End time: 00:42:30 on Nov 12,2026, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0

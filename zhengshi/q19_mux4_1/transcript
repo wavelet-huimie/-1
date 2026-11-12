@@ -1,19 +1,19 @@
 # quietly vlib work
 #  quietly vlog *.v
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 21:03:06 on Nov 11,2026
+# Start time: 00:43:05 on Nov 12,2026
 # vlog mux4_1.v mux4_1_tb.v 
 # -- Compiling module mux4_1
 # -- Compiling module mux4_1_tb
 # 
 # Top level modules:
 # 	mux4_1_tb
-# End time: 21:03:06 on Nov 11,2026, Elapsed time: 0:00:00
+# End time: 00:43:05 on Nov 12,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 #  vsim -voptargs=+acc mux4_1_tb
 # vsim -voptargs="+acc" mux4_1_tb 
-# Start time: 21:03:06 on Nov 11,2026
-# ** Note: (vsim-3812) Design is being optimized...
+# Start time: 00:43:05 on Nov 12,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # //  ModelSim SE-64 2020.4 Oct 13 2020
 # //
 # //  Copyright 1991-2020 Mentor Graphics Corporation
@@ -30,11 +30,10 @@
 # Loading work.mux4_1_tb(fast)
 # Loading work.mux4_1(fast)
 #  run -all
-# PASS  mux4_1 : all cases OK
-# ** Note: $stop    : mux4_1_tb.v(67)
+# ** Note: $stop    : mux4_1_tb.v(34)
 #    Time: 1792 ns  Iteration: 0  Instance: /mux4_1_tb
-# Break in Module mux4_1_tb at mux4_1_tb.v line 67
-# Stopped at mux4_1_tb.v line 67
+# Break in Module mux4_1_tb at mux4_1_tb.v line 34
+# Stopped at mux4_1_tb.v line 34
 #  quit -f
-# End time: 21:03:09 on Nov 11,2026, Elapsed time: 0:00:03
+# End time: 00:43:07 on Nov 12,2026, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0

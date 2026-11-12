@@ -1,19 +1,19 @@
 # quietly vlib work
 #  quietly vlog *.v
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 21:02:09 on Nov 11,2026
+# Start time: 00:42:18 on Nov 12,2026
 # vlog logic_bitwise_and.v logic_bitwise_and_tb.v 
 # -- Compiling module logic_bitwise_and
 # -- Compiling module logic_bitwise_and_tb
 # 
 # Top level modules:
 # 	logic_bitwise_and_tb
-# End time: 21:02:09 on Nov 11,2026, Elapsed time: 0:00:00
+# End time: 00:42:18 on Nov 12,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 #  vsim -voptargs=+acc logic_bitwise_and_tb
 # vsim -voptargs="+acc" logic_bitwise_and_tb 
-# Start time: 21:02:09 on Nov 11,2026
-# ** Note: (vsim-3812) Design is being optimized...
+# Start time: 00:42:18 on Nov 12,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # //  ModelSim SE-64 2020.4 Oct 13 2020
 # //
 # //  Copyright 1991-2020 Mentor Graphics Corporation
@@ -30,25 +30,10 @@
 # Loading work.logic_bitwise_and_tb(fast)
 # Loading work.logic_bitwise_and(fast)
 #  run -all
-#   a    b   | a && b | a & b  
-# -----------+--------+---------
-#   0000  0000  |   0    | 0000
-#   0010  0000  |   0    | 0000
-#   0100  0000  |   0    | 0000
-#   0110  0000  |   0    | 0000
-#   1000  0000  |   0    | 0000
-#   1010  0000  |   0    | 0000
-#   1100  0000  |   0    | 0000
-#   1110  0000  |   0    | 0000
-# 
-# 典型对比：
-#   a=0011 b=1100  ->  && = 1  & = 0000  (&&: 都非零=1, &: 0000)
-#   a=0000 b=1111  ->  && = 0  & = 0000  (&&: a为零=0, &: 0000)
-# PASS  logic_bitwise_and : 256 cases OK
-# ** Note: $stop    : logic_bitwise_and_tb.v(70)
-#    Time: 258 ns  Iteration: 0  Instance: /logic_bitwise_and_tb
-# Break in Module logic_bitwise_and_tb at logic_bitwise_and_tb.v line 70
-# Stopped at logic_bitwise_and_tb.v line 70
+# ** Note: $stop    : logic_bitwise_and_tb.v(24)
+#    Time: 256 ns  Iteration: 0  Instance: /logic_bitwise_and_tb
+# Break in Module logic_bitwise_and_tb at logic_bitwise_and_tb.v line 24
+# Stopped at logic_bitwise_and_tb.v line 24
 #  quit -f
-# End time: 21:02:11 on Nov 11,2026, Elapsed time: 0:00:02
+# End time: 00:42:20 on Nov 12,2026, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0

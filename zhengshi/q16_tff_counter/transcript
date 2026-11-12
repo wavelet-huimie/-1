@@ -1,19 +1,19 @@
 # quietly vlib work
 #  quietly vlog *.v
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 21:02:53 on Nov 11,2026
+# Start time: 00:42:53 on Nov 12,2026
 # vlog tff_counter.v tff_counter_tb.v 
 # -- Compiling module tff_counter
 # -- Compiling module tff_counter_tb
 # 
 # Top level modules:
 # 	tff_counter_tb
-# End time: 21:02:54 on Nov 11,2026, Elapsed time: 0:00:01
+# End time: 00:42:53 on Nov 12,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 #  vsim -voptargs=+acc tff_counter_tb
 # vsim -voptargs="+acc" tff_counter_tb 
-# Start time: 21:02:54 on Nov 11,2026
-# ** Note: (vsim-3812) Design is being optimized...
+# Start time: 00:42:53 on Nov 12,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # //  ModelSim SE-64 2020.4 Oct 13 2020
 # //
 # //  Copyright 1991-2020 Mentor Graphics Corporation
@@ -30,11 +30,10 @@
 # Loading work.tff_counter_tb(fast)
 # Loading work.tff_counter(fast)
 #  run -all
-# PASS  tff_counter : all 515 steps OK
-# ** Note: $stop    : tff_counter_tb.v(57)
+# ** Note: $stop    : tff_counter_tb.v(32)
 #    Time: 5167 ns  Iteration: 0  Instance: /tff_counter_tb
-# Break in Module tff_counter_tb at tff_counter_tb.v line 57
-# Stopped at tff_counter_tb.v line 57
+# Break in Module tff_counter_tb at tff_counter_tb.v line 32
+# Stopped at tff_counter_tb.v line 32
 #  quit -f
-# End time: 21:02:56 on Nov 11,2026, Elapsed time: 0:00:02
+# End time: 00:42:55 on Nov 12,2026, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0

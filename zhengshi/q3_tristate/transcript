@@ -1,19 +1,19 @@
 # quietly vlib work
 #  quietly vlog *.v
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 21:01:55 on Nov 11,2026
+# Start time: 00:42:07 on Nov 12,2026
 # vlog tristate.v tristate_tb.v 
 # -- Compiling module tristate
 # -- Compiling module tristate_tb
 # 
 # Top level modules:
 # 	tristate_tb
-# End time: 21:01:55 on Nov 11,2026, Elapsed time: 0:00:00
+# End time: 00:42:08 on Nov 12,2026, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 #  vsim -voptargs=+acc tristate_tb
 # vsim -voptargs="+acc" tristate_tb 
-# Start time: 21:01:56 on Nov 11,2026
-# ** Note: (vsim-3812) Design is being optimized...
+# Start time: 00:42:08 on Nov 12,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # //  ModelSim SE-64 2020.4 Oct 13 2020
 # //
 # //  Copyright 1991-2020 Mentor Graphics Corporation
@@ -30,11 +30,10 @@
 # Loading work.tristate_tb(fast)
 # Loading work.tristate(fast)
 #  run -all
-# PASS  tristate : all cases OK
-# ** Note: $stop    : tristate_tb.v(54)
+# ** Note: $stop    : tristate_tb.v(30)
 #    Time: 264 ns  Iteration: 0  Instance: /tristate_tb
-# Break in Module tristate_tb at tristate_tb.v line 54
-# Stopped at tristate_tb.v line 54
+# Break in Module tristate_tb at tristate_tb.v line 30
+# Stopped at tristate_tb.v line 30
 #  quit -f
-# End time: 21:01:58 on Nov 11,2026, Elapsed time: 0:00:02
+# End time: 00:42:09 on Nov 12,2026, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0

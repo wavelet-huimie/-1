@@ -1,19 +1,19 @@
 # quietly vlib work
 #  quietly vlog *.v
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 21:02:04 on Nov 11,2026
+# Start time: 00:42:14 on Nov 12,2026
 # vlog div_mod.v div_mod_tb.v 
 # -- Compiling module div_mod
 # -- Compiling module div_mod_tb
 # 
 # Top level modules:
 # 	div_mod_tb
-# End time: 21:02:04 on Nov 11,2026, Elapsed time: 0:00:00
+# End time: 00:42:14 on Nov 12,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 #  vsim -voptargs=+acc div_mod_tb
 # vsim -voptargs="+acc" div_mod_tb 
-# Start time: 21:02:05 on Nov 11,2026
-# ** Note: (vsim-3812) Design is being optimized...
+# Start time: 00:42:14 on Nov 12,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # //  ModelSim SE-64 2020.4 Oct 13 2020
 # //
 # //  Copyright 1991-2020 Mentor Graphics Corporation
@@ -30,14 +30,10 @@
 # Loading work.div_mod_tb(fast)
 # Loading work.div_mod(fast)
 #  run -all
-# a=20 b=4 -> q=5 m=0 (expect q=5 m=0)
-# a=17 b=5 -> q=3 m=2 (expect q=3 m=2)
-# a= 7 b=3 -> q=2 m=1 (expect q=2 m=1)
-# PASS  div_mod : 3840 cases OK
-# ** Note: $stop    : div_mod_tb.v(56)
+# ** Note: $stop    : div_mod_tb.v(25)
 #    Time: 3840 ns  Iteration: 0  Instance: /div_mod_tb
-# Break in Module div_mod_tb at div_mod_tb.v line 56
-# Stopped at div_mod_tb.v line 56
+# Break in Module div_mod_tb at div_mod_tb.v line 25
+# Stopped at div_mod_tb.v line 25
 #  quit -f
-# End time: 21:02:07 on Nov 11,2026, Elapsed time: 0:00:02
+# End time: 00:42:16 on Nov 12,2026, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0

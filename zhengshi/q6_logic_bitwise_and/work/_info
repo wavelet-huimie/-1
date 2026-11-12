@@ -20,16 +20,16 @@ n@_opt
 Z3 OL;O;2020.4;71
 R0
 T_opt1
-!s110 1794402130
-VhA9KJcf5ZR]K[^@ZO@i<B2
+!s110 1794415339
+VYGn6an1k<l1RQ4G;zEiEB2
 R1
-=1-145afc986e21-6af46752-1ac-ca4
+=1-145afc986e21-6af49aeb-8b-7b40
 o-quiet -auto_acc_if_foreign -work work +acc
 R2
 n@_opt1
 R3
 vlogic_bitwise_and
-Z4 !s110 1794402129
+Z4 !s110 1794415338
 !i10b 1
 !s100 _kR<zb[1Y49WOMUbbBzEd3
 Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -38,14 +38,14 @@ R0
 w1794389583
 8logic_bitwise_and.v
 Flogic_bitwise_and.v
-!i122 1
+!i122 2
 L0 11 11
 Z6 VDg1SIo80bB@j0V0VzS_@n1
 Z7 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z8 !s108 1794402129.000000
+Z8 !s108 1794415338.000000
 Z9 !s107 logic_bitwise_and_tb.v|logic_bitwise_and.v|
 Z10 !s90 logic_bitwise_and.v|logic_bitwise_and_tb.v|
 !i113 0
@@ -54,15 +54,15 @@ R2
 vlogic_bitwise_and_tb
 R4
 !i10b 1
-!s100 S[5WjF^8EEGOQkE1if``O0
+!s100 UX2NDHP2K@IOUD?iBiZme0
 R5
-I=Udhd52GE<N_HQgbEeazl3
+I48K^bzcUO:;FblDge6a`13
 R0
-w1794401987
+w1794415242
 8logic_bitwise_and_tb.v
 Flogic_bitwise_and_tb.v
-!i122 1
-L0 10 64
+!i122 2
+L0 3 25
 R6
 R7
 r1

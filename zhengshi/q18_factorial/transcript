@@ -1,19 +1,19 @@
 # quietly vlib work
 #  quietly vlog *.v
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 21:03:02 on Nov 11,2026
+# Start time: 00:43:01 on Nov 12,2026
 # vlog factorial.v factorial_tb.v 
 # -- Compiling module factorial
 # -- Compiling module factorial_tb
 # 
 # Top level modules:
 # 	factorial_tb
-# End time: 21:03:02 on Nov 11,2026, Elapsed time: 0:00:00
+# End time: 00:43:01 on Nov 12,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 #  vsim -voptargs=+acc factorial_tb
 # vsim -voptargs="+acc" factorial_tb 
-# Start time: 21:03:02 on Nov 11,2026
-# ** Note: (vsim-3812) Design is being optimized...
+# Start time: 00:43:01 on Nov 12,2026
+# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
 # //  ModelSim SE-64 2020.4 Oct 13 2020
 # //
 # //  Copyright 1991-2020 Mentor Graphics Corporation
@@ -30,24 +30,10 @@
 # Loading work.factorial_tb(fast)
 # Loading work.factorial(fast)
 #  run -all
-# n=0  n!=1  (expect 1)
-# n=1  n!=1  (expect 1)
-# n=2  n!=2  (expect 2)
-# n=3  n!=6  (expect 6)
-# n=4  n!=24  (expect 24)
-# n=5  n!=120  (expect 120)
-# n=6  n!=720  (expect 720)
-# n=7  n!=5040  (expect 5040)
-# n=8  n!=40320  (expect 40320)
-# n=9  n!=362880  (expect 362880)
-# n=10  n!=3628800  (expect 3628800)
-# n=11  n!=39916800  (expect 39916800)
-# n=12  n!=479001600  (expect 479001600)
-# PASS  factorial : 13/13 cases OK
-# ** Note: $stop    : factorial_tb.v(59)
+# ** Note: $stop    : factorial_tb.v(20)
 #    Time: 13 ns  Iteration: 0  Instance: /factorial_tb
-# Break in Module factorial_tb at factorial_tb.v line 59
-# Stopped at factorial_tb.v line 59
+# Break in Module factorial_tb at factorial_tb.v line 20
+# Stopped at factorial_tb.v line 20
 #  quit -f
-# End time: 21:03:04 on Nov 11,2026, Elapsed time: 0:00:02
+# End time: 00:43:03 on Nov 12,2026, Elapsed time: 0:00:02
 # Errors: 0, Warnings: 0
