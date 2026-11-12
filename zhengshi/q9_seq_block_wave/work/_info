@@ -10,67 +10,57 @@ z2
 cModel Technology
 Z0 dE:/xdu_fpga_course/zhengshi/q9_seq_block_wave
 T_opt
-!s110 1794389937
-VFf47B=gKPEASS78fgIegB1
-Z1 04 11 4 work wave_gen_tb fast 0
-=1-145afc986e21-6af437b0-2bf-5570
-o-quiet -auto_acc_if_foreign -work work
-Z2 tCvgOpt 0
-n@_opt
-Z3 OL;O;2020.4;71
-R0
-T_opt1
-!s110 1794415349
-VCf<aX>21WVCaW6z4K6NQ82
-R1
-=1-145afc986e21-6af49af5-20c-79bc
+!s110 1794471747
+VUZ?8hd^IcXWDKoV6mC[M<3
+04 11 4 work wave_seq_tb fast 0
+=1-145afc986e21-6af57742-356-84b8
 o-quiet -auto_acc_if_foreign -work work +acc
-R2
-n@_opt1
-R3
-vwave_gen
-Z4 !s110 1794415348
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
+vwave_seq
+Z2 !s110 1794471745
 !i10b 1
-!s100 8l@Th;3a@<NZWQ?LRd;0F0
-Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IMO:kGmTiFO6Nnj[]hPEf30
+!s100 3OgKckb1K2L0=V^6Tj`933
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IOf04I>m?cS1K<3E6fGha`0
 R0
-w1794389918
-8wave_gen.v
-Fwave_gen.v
-!i122 2
-L0 15 65
-Z6 VDg1SIo80bB@j0V0VzS_@n1
-Z7 OL;L;2020.4;71
+w1794471345
+8wave_seq.v
+Fwave_seq.v
+!i122 0
+L0 10 41
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z8 !s108 1794415348.000000
-Z9 !s107 wave_gen_tb.v|wave_gen.v|
-Z10 !s90 wave_gen.v|wave_gen_tb.v|
+Z6 !s108 1794471745.000000
+Z7 !s107 wave_seq_tb.v|wave_seq.v|
+Z8 !s90 wave_seq.v|wave_seq_tb.v|
 !i113 0
-Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vwave_seq_tb
 R2
-vwave_gen_tb
-R4
 !i10b 1
-!s100 63l46>g<ZjHj6]`TUWV8^0
-R5
-II27[:eBGlORz3U01_iZR41
+!s100 ;[HeMamLmI<KWHlllXzGn0
+R3
+IP761_<6>zZ<baee[h95Jl3
 R0
-w1794415256
-8wave_gen_tb.v
-Fwave_gen_tb.v
-!i122 2
-L0 3 25
+w1794471347
+8wave_seq_tb.v
+Fwave_seq_tb.v
+!i122 0
+L0 3 23
+R4
+R5
+r1
+!s85 0
+31
 R6
 R7
-r1
-!s85 0
-31
 R8
-R9
-R10
 !i113 0
-R11
-R2
+R9
+R1

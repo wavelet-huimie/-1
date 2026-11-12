@@ -30,16 +30,16 @@ n@_opt1
 R4
 R0
 T_opt2
-!s110 1794415325
-V;oAXIhH^:UBIQlEbeEQLO0
+!s110 1794458673
+VmzQ0nXoa^UO5LCQb:2mjO0
 R1
-=1-145afc986e21-6af49add-199-6f88
+=1-145afc986e21-6af5442c-281-48ec
 R2
 R3
 n@_opt2
 R4
 vcomp2
-Z5 !s110 1794415324
+Z5 !s110 1794458664
 !i10b 1
 !s100 aed9gXYd?:5Ql@9Y_YRFz0
 Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -48,16 +48,16 @@ R0
 w1794389207
 8comp2.v
 Fcomp2.v
-!i122 2
+!i122 0
 L0 11 13
 Z7 VDg1SIo80bB@j0V0VzS_@n1
 Z8 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z9 !s108 1794415324.000000
+Z9 !s108 1794458664.000000
 Z10 !s107 comp2_tb.v|comp2.v|
-Z11 !s90 comp2.v|comp2_tb.v|
+Z11 !s90 -reportprogress|300|comp2.v|comp2_tb.v|
 !i113 0
 Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R3
@@ -71,7 +71,7 @@ R0
 w1794415227
 8comp2_tb.v
 Fcomp2_tb.v
-!i122 2
+!i122 0
 L0 3 27
 R7
 R8
