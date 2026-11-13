@@ -174,7 +174,7 @@ VCCPD3B4A                    : AD13      : power  :                   : 2.5V    
 GND                          : AD14      : gnd    :                   :         :           :                
 VCC_AUX                      : AD15      : power  :                   : 2.5V    :           :                
 VCCPD3B4A                    : AD16      : power  :                   : 2.5V    : 3B, 4A    :                
-rst                          : AD17      : input  : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AD17      :        :                   :         : 4A        :                
 VCCPD3B4A                    : AD18      : power  :                   : 2.5V    : 3B, 4A    :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AD19      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AD20      :        :                   :         : 4A        :                
@@ -282,11 +282,11 @@ GND                          : AH10      : gnd    :                   :         
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH11      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH12      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH13      :        :                   :         : 4A        :                
-sig                          : AH14      : output : 2.5 V             :         : 4A        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : AH14      :        :                   :         : 4A        :                
 VCCIO4A                      : AH15      : power  :                   : 2.5V    : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH16      :        :                   :         : 4A        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH17      :        :                   :         : 4A        :                
-RESERVED_INPUT_WITH_WEAK_PULLUP : AH18      :        :                   :         : 4A        :                
+sig                          : AH18      : output : 2.5 V             :         : 4A        : N              
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH19      :        :                   :         : 4A        :                
 GND                          : AH20      : gnd    :                   :         :           :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : AH21      :        :                   :         : 4A        :                
@@ -721,7 +721,7 @@ GND                          : W18       : gnd    :                   :         
 VCCPD5B                      : W19       : power  :                   : 2.5V    : 5B        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : W20       :        :                   :         : 5B        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : W21       :        :                   :         : 5B        :                
-clk                          : W24       : input  : 2.5 V             :         : 5B        : N              
+RESERVED_INPUT_WITH_WEAK_PULLUP : W24       :        :                   :         : 5B        :                
 VCCIO5B                      : W25       : power  :                   : 2.5V    : 5B        :                
 RESERVED_INPUT_WITH_WEAK_PULLUP : W26       :        :                   :         : 6B        :                
 VCCIO6B_HPS                  : W27       : power  :                   : 2.5V    : 6B        :                

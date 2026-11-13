@@ -1,5 +1,5 @@
 Flow report for wave_seq
-Thu Nov 12 16:21:51 2026
+Fri Nov 13 11:24:22 2026
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 
 
@@ -40,16 +40,16 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------------+
 ; Flow Summary                                                                      ;
 +---------------------------------+-------------------------------------------------+
-; Flow Status                     ; Successful - Thu Nov 12 16:21:44 2026           ;
+; Flow Status                     ; Successful - Fri Nov 13 11:24:16 2026           ;
 ; Quartus Prime Version           ; 18.1.0 Build 625 09/12/2018 SJ Standard Edition ;
 ; Revision Name                   ; wave_seq                                        ;
 ; Top-level Entity Name           ; wave_seq                                        ;
 ; Family                          ; Cyclone V                                       ;
 ; Device                          ; 5CSEBA6U23I7                                    ;
 ; Timing Models                   ; Final                                           ;
-; Logic utilization (in ALMs)     ; 3 / 41,910 ( < 1 % )                            ;
-; Total registers                 ; 5                                               ;
-; Total pins                      ; 3 / 314 ( < 1 % )                               ;
+; Logic utilization (in ALMs)     ; 1 / 41,910 ( < 1 % )                            ;
+; Total registers                 ; 0                                               ;
+; Total pins                      ; 1 / 314 ( < 1 % )                               ;
 ; Total virtual pins              ; 0                                               ;
 ; Total block memory bits         ; 0 / 5,662,720 ( 0 % )                           ;
 ; Total DSP Blocks                ; 0 / 112 ( 0 % )                                 ;
@@ -67,7 +67,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 11/12/2026 16:20:41 ;
+; Start date & time ; 11/13/2026 11:23:28 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; wave_seq            ;
 +-------------------+---------------------+
@@ -78,7 +78,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id ;
 +-------------------------------------+----------------------------------------+---------------+-------------+------------+
-; COMPILER_SIGNATURE_ID               ; 24580040715809.179447164122460         ; --            ; --          ; --         ;
+; COMPILER_SIGNATURE_ID               ; 24580040715809.179454020808348         ; --            ; --          ; --         ;
 ; MAX_CORE_JUNCTION_TEMP              ; 100                                    ; --            ; --          ; --         ;
 ; MIN_CORE_JUNCTION_TEMP              ; -40                                    ; --            ; --          ; --         ;
 ; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; --          ; Top        ;
@@ -94,11 +94,11 @@ refer to the applicable agreement for further details.
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name          ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Synthesis ; 00:00:14     ; 1.0                     ; 4877 MB             ; 00:00:30                           ;
-; Fitter               ; 00:00:47     ; 1.0                     ; 7393 MB             ; 00:02:34                           ;
+; Analysis & Synthesis ; 00:00:11     ; 1.0                     ; 4785 MB             ; 00:00:22                           ;
+; Fitter               ; 00:00:34     ; 1.0                     ; 7256 MB             ; 00:01:47                           ;
 ; Assembler            ; 00:00:01     ; 1.0                     ; 4727 MB             ; 00:00:01                           ;
-; Timing Analyzer      ; 00:00:06     ; 1.0                     ; 5203 MB             ; 00:00:06                           ;
-; Total                ; 00:01:08     ; --                      ; --                  ; 00:03:11                           ;
+; Timing Analyzer      ; 00:00:05     ; 1.0                     ; 5197 MB             ; 00:00:05                           ;
+; Total                ; 00:00:51     ; --                      ; --                  ; 00:02:15                           ;
 +----------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 

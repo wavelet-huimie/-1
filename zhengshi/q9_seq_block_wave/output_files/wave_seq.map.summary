@@ -1,11 +1,11 @@
-Analysis & Synthesis Status : Successful - Thu Nov 12 16:20:54 2026
+Analysis & Synthesis Status : Successful - Fri Nov 13 11:23:38 2026
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 Revision Name : wave_seq
 Top-level Entity Name : wave_seq
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A
-Total registers : 4
-Total pins : 3
+Total registers : 0
+Total pins : 1
 Total virtual pins : 0
 Total block memory bits : 0
 Total DSP Blocks : 0

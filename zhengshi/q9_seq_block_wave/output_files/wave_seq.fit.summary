@@ -1,13 +1,13 @@
-Fitter Status : Successful - Thu Nov 12 16:21:42 2026
+Fitter Status : Successful - Fri Nov 13 11:24:13 2026
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 Revision Name : wave_seq
 Top-level Entity Name : wave_seq
 Family : Cyclone V
 Device : 5CSEBA6U23I7
 Timing Models : Final
-Logic utilization (in ALMs) : 3 / 41,910 ( < 1 % )
-Total registers : 5
-Total pins : 3 / 314 ( < 1 % )
+Logic utilization (in ALMs) : 1 / 41,910 ( < 1 % )
+Total registers : 0
+Total pins : 1 / 314 ( < 1 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 5,662,720 ( 0 % )
 Total RAM Blocks : 0 / 553 ( 0 % )

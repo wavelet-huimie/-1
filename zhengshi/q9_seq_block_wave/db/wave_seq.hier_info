@@ -1,12 +1,4 @@
 |wave_seq
-clk => sig~reg0.CLK
-clk => cnt[0].CLK
-clk => cnt[1].CLK
-clk => cnt[2].CLK
-rst => sig~reg0.ACLR
-rst => cnt[0].ACLR
-rst => cnt[1].ACLR
-rst => cnt[2].ACLR
-sig <= sig~reg0.DB_MAX_OUTPUT_PORT_TYPE
+sig << <VCC>
 
 

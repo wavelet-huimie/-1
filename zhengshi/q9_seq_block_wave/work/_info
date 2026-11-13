@@ -10,57 +10,57 @@ z2
 cModel Technology
 Z0 dE:/xdu_fpga_course/zhengshi/q9_seq_block_wave
 T_opt
-!s110 1794489273
-VAA6el@K8PzJbK_e9Gbd2f1
+!s110 1794540625
+VkiCbW]T49=zQQUd;2Tl^X1
 04 11 4 work wave_seq_tb fast 0
-=1-145afc986e21-6af5bbb9-15a-82c4
+=1-145afc986e21-6af68451-207-563c
 o-quiet -auto_acc_if_foreign -work work +acc
 Z1 tCvgOpt 0
 n@_opt
 OL;O;2020.4;71
 vwave_seq
-Z2 !s110 1794489271
+Z2 !s110 1794540624
 !i10b 1
-!s100 3OgKckb1K2L0=V^6Tj`933
+!s100 9BVeQSEXA9lPe7VU:knY=0
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IOf04I>m?cS1K<3E6fGha`0
+IKXC0`4OhE:ZbFhC_H5T_Z3
 R0
-w1794471345
+Z4 w1794539721
 8wave_seq.v
 Fwave_seq.v
 !i122 0
-L0 10 41
-Z4 VDg1SIo80bB@j0V0VzS_@n1
-Z5 OL;L;2020.4;71
+Z5 L0 3 14
+Z6 VDg1SIo80bB@j0V0VzS_@n1
+Z7 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z6 !s108 1794489271.000000
-Z7 !s107 wave_seq_tb.v|wave_seq.v|
-Z8 !s90 -reportprogress|300|wave_seq.v|wave_seq_tb.v|
+Z8 !s108 1794540624.000000
+Z9 !s107 wave_seq_tb.v|wave_seq.v|
+Z10 !s90 -reportprogress|300|wave_seq.v|wave_seq_tb.v|
 !i113 0
-Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R1
 vwave_seq_tb
 R2
 !i10b 1
-!s100 ;[HeMamLmI<KWHlllXzGn0
+!s100 [V6X@UFeMAK<SjK8N2SKA0
 R3
-IP761_<6>zZ<baee[h95Jl3
+I53c7mlAfV7Xj@K@bYg9Pc2
 R0
-w1794471347
+R4
 8wave_seq_tb.v
 Fwave_seq_tb.v
 !i122 0
-L0 3 23
-R4
 R5
+R6
+R7
 r1
 !s85 0
 31
-R6
-R7
 R8
-!i113 0
 R9
+R10
+!i113 0
+R11
 R1
