@@ -15,7 +15,7 @@
 onerror {resume}
 
 # 1) Rebuild work library
-quietly vdel -all -lib work
+if {[file exists work]} { quietly vdel -all -lib work }
 quietly vlib work
 
 # 2) Compile DUT and testbench
@@ -25,7 +25,7 @@ quietly vlog *.v
 vsim -voptargs=+acc bcd60_tb
 
 # 4) Add all signals to waveform
-add wave -r /bcd60_tb/*
+add wave /bcd60_tb/*
 
 # 5) Run
 run -all

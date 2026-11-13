@@ -10,67 +10,57 @@ z2
 cModel Technology
 Z0 dE:/xdu_fpga_course/zhengshi/q14_mult8
 T_opt
-!s110 1794390490
-VdI<o?k?7LSE=3If>0]S;C3
-Z1 04 8 4 work mult8_tb fast 0
-=1-145afc986e21-6af439d9-363-5a8c
-o-quiet -auto_acc_if_foreign -work work
-Z2 tCvgOpt 0
-n@_opt
-Z3 OL;O;2020.4;71
-R0
-T_opt1
-!s110 1794415367
-VNXYb2OOFTHKXDDkHe`fK71
-R1
-=1-145afc986e21-6af49b07-1be-a90
+!s110 1794489407
+V22Q7n3>U`C<1eD]jjzHgW0
+04 8 4 work mult8_tb fast 0
+=1-145afc986e21-6af5bc3e-3e4-5b14
 o-quiet -auto_acc_if_foreign -work work +acc
-R2
-n@_opt1
-R3
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
 vmult8
-Z4 !s110 1794415366
+Z2 !s110 1794489405
 !i10b 1
 !s100 Baag:ZcUb7=SGRSc5_ZTG0
-Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
 I_zTTQc:nGLVf>SzQ[9QI41
 R0
 w1794390468
 8mult8.v
 Fmult8.v
-!i122 2
+!i122 0
 L0 10 9
-Z6 VDg1SIo80bB@j0V0VzS_@n1
-Z7 OL;L;2020.4;71
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z8 !s108 1794415366.000000
-Z9 !s107 mult8_tb.v|mult8.v|
-Z10 !s90 mult8.v|mult8_tb.v|
+Z6 !s108 1794489405.000000
+Z7 !s107 mult8_tb.v|mult8.v|
+Z8 !s90 -reportprogress|300|mult8.v|mult8_tb.v|
 !i113 0
-Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
 vmult8_tb
-R4
+R2
 !i10b 1
 !s100 X3ma5[k<=;hn<cEBe6khB2
-R5
+R3
 I7nM;[TMMkYPZN4n^K0OLd2
 R0
 w1794415272
 8mult8_tb.v
 Fmult8_tb.v
-!i122 2
+!i122 0
 L0 3 25
-R6
-R7
+R4
+R5
 r1
 !s85 0
 31
+R6
+R7
 R8
-R9
-R10
 !i113 0
-R11
-R2
+R9
+R1

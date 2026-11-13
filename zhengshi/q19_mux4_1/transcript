@@ -1,19 +1,4 @@
-# quietly vlib work
-#  quietly vlog *.v
-# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 00:43:05 on Nov 12,2026
-# vlog mux4_1.v mux4_1_tb.v 
-# -- Compiling module mux4_1
-# -- Compiling module mux4_1_tb
-# 
-# Top level modules:
-# 	mux4_1_tb
-# End time: 00:43:05 on Nov 12,2026, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-#  vsim -voptargs=+acc mux4_1_tb
-# vsim -voptargs="+acc" mux4_1_tb 
-# Start time: 00:43:05 on Nov 12,2026
-# ** Note: (vsim-3813) Design is being optimized due to module recompilation...
+# Reading pref.tcl
 # //  ModelSim SE-64 2020.4 Oct 13 2020
 # //
 # //  Copyright 1991-2020 Mentor Graphics Corporation
@@ -27,13 +12,25 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
+# do {C:\Users\ASUS\AppData\Local\Temp\hw1\auto_q19.do}
+# Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
+# Start time: 21:18:59 on Nov 12,2026
+# vlog -reportprogress 300 mux4_1.v mux4_1_tb.v 
+# -- Compiling module mux4_1
+# -- Compiling module mux4_1_tb
+# 
+# Top level modules:
+# 	mux4_1_tb
+# End time: 21:18:59 on Nov 12,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -voptargs="+acc" mux4_1_tb 
+# Start time: 21:18:59 on Nov 12,2026
+# ** Note: (vsim-3812) Design is being optimized...
 # Loading work.mux4_1_tb(fast)
 # Loading work.mux4_1(fast)
-#  run -all
 # ** Note: $stop    : mux4_1_tb.v(34)
 #    Time: 1792 ns  Iteration: 0  Instance: /mux4_1_tb
 # Break in Module mux4_1_tb at mux4_1_tb.v line 34
-# Stopped at mux4_1_tb.v line 34
-#  quit -f
-# End time: 00:43:07 on Nov 12,2026, Elapsed time: 0:00:02
-# Errors: 0, Warnings: 0
+# .main_pane.wave.interior.cs.body.pw.wf
+# 0 ps
+# 1881600 ps

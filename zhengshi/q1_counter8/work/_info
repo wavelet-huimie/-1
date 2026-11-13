@@ -10,109 +10,189 @@ z2
 cModel Technology
 Z0 dE:/xdu_fpga_course/zhengshi/q1_counter8
 T_opt
-!s110 1794398352
-VnJYM7CR=lk4S^RJ]ncT<l3
+!s110 1794487790
+VN;;>J0^2[ahL7=YVlV^C00
 Z1 04 11 4 work counter8_tb fast 0
-=1-145afc986e21-6af4588f-394-42b4
-Z2 o-quiet -auto_acc_if_foreign -work work
+=1-145afc986e21-6af5b5ee-207-48d4
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
 Z3 tCvgOpt 0
 n@_opt
 Z4 OL;O;2020.4;71
 R0
 T_opt1
-!s110 1794398392
-VzLa9:7T_YQ6c3zdU@77F10
+!s110 1794487857
+VLITV;A^4dRm468cOIiXPL0
 R1
-=1-145afc986e21-6af458b8-12c-3c18
+=1-145afc986e21-6af5b631-15-2aa8
 R2
 R3
 n@_opt1
 R4
 R0
-T_opt2
-!s110 1794398475
-Vloj7RDGQ[]KaVbV@LZY3M2
+T_opt10
+!s110 1794488351
+VjVX^OZCRTeFn2klHLZ3iN2
 R1
-=1-145afc986e21-6af4590a-392-7f7c
-Z5 o-quiet -auto_acc_if_foreign -work work +acc
+=1-145afc986e21-6af5b81f-204-823c
+R2
+R3
+n@_opt10
+R4
+R0
+T_opt11
+!s110 1794488400
+VYk`=MDKfi^;hMCHEz1<l01
+R1
+=1-145afc986e21-6af5b84f-3d5-3454
+R2
+R3
+n@_opt11
+R4
+R0
+T_opt12
+!s110 1794488440
+VR3DTP^S[C<SWlY@EddZEU3
+R1
+=1-145afc986e21-6af5b878-101-6154
+R2
+R3
+n@_opt12
+R4
+R0
+T_opt13
+!s110 1794488713
+V<WWK7?`8>F_n[Wc=do8CN2
+R1
+=1-145afc986e21-6af5b989-159-760c
+R2
+R3
+n@_opt13
+R4
+R0
+T_opt14
+!s110 1794488788
+V03d28]Jdk6@i`a@nENnZ^2
+R1
+=1-145afc986e21-6af5b9d4-137-5e50
+R2
+R3
+n@_opt14
+R4
+R0
+T_opt15
+!s110 1794488844
+VzGNaP[UAk5fhhWO7>bPKl2
+R1
+=1-145afc986e21-6af5ba0b-306-4d84
+R2
+R3
+n@_opt15
+R4
+R0
+T_opt16
+!s110 1794488992
+V;Dn3BQ5Z4LR35><WD2F@D1
+R1
+=1-145afc986e21-6af5baa0-135-8ee0
+R2
+R3
+n@_opt16
+R4
+R0
+T_opt17
+!s110 1794489063
+VOa0goo>JT[FH4kdebc`E81
+R1
+=1-145afc986e21-6af5bae6-3ab-801c
+R2
+R3
+n@_opt17
+R4
+T_opt2
+!s110 1794487888
+VF>N]jHVlEWRmz`=Qm^3mU1
+R1
+=1-145afc986e21-6af5b650-176-8574
+R2
 R3
 n@_opt2
 R4
 R0
 T_opt3
-!s110 1794398542
-V3d<nbDZPocLkCnF0KDb]K2
+!s110 1794487977
+VLJI=GA_=FKl^m;EOKD^j^1
 R1
-=1-145afc986e21-6af4594e-c1-705c
-R5
+=1-145afc986e21-6af5b6a9-1a0-fe4
+R2
 R3
 n@_opt3
 R4
 R0
 T_opt4
-!s110 1794398591
-V^:`XW9iFkQ@ii2JokWTa=1
+!s110 1794488024
+V<jI7D=0Ehh>QnElP344nh1
 R1
-=1-145afc986e21-6af4597f-1f9-2940
-R5
+=1-145afc986e21-6af5b6d8-4f-7e84
+R2
 R3
 n@_opt4
 R4
 R0
 T_opt5
-!s110 1794398800
-VKM[_0gE@L6g<TXG:^?`^Z3
+!s110 1794488056
+V:Lh6J<6BiQJR5VkgP2XhC1
 R1
-=1-145afc986e21-6af45a50-1ac-c20
-R5
+=1-145afc986e21-6af5b6f7-34f-50cc
+R2
 R3
 n@_opt5
 R4
 R0
 T_opt6
-!s110 1794401017
-V8Oe^QVNEIO7AFjaM:7fgm1
+!s110 1794488111
+VYF5;4ZYIR11DdPVjjeKBE3
 R1
-=1-145afc986e21-6af462f9-16c-61bc
-R5
+=1-145afc986e21-6af5b72e-390-8668
+R2
 R3
 n@_opt6
 R4
 R0
 T_opt7
-!s110 1794410125
-V2[Vn2[ZGCY0:VWflaPdl60
+!s110 1794488158
+VCjICE5Y6KK7i1nW?FIH:Q0
 R1
-=1-145afc986e21-6af4868d-17b-87e4
-R5
+=1-145afc986e21-6af5b75d-35f-6090
+R2
 R3
 n@_opt7
 R4
 R0
 T_opt8
-!s110 1794415747
-VSdO4AaW[WAoWQ^S1PM>=e3
+!s110 1794488229
+VZNz503;Lohnmbbj6n=4933
 R1
-=1-145afc986e21-6af49c83-26e-1e9c
-R5
+=1-145afc986e21-6af5b7a5-1df-8b60
+R2
 R3
 n@_opt8
 R4
 R0
 T_opt9
-!s110 1794467124
-VYd^IFjYb`hSMkZQDm_z7B1
+!s110 1794488280
+VD5ejANl<85^MLj49hC2?o0
 R1
-=1-145afc986e21-6af56534-a0-3840
-R5
+=1-145afc986e21-6af5b7d8-c4-6840
+R2
 R3
 n@_opt9
 R4
+R0
 vcounter8
-Z6 !s110 1794467122
+Z5 !s110 1794489061
 !i10b 1
 !s100 @fM@KCE_8eMbNUaWNcH5]1
-Z7 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
 IPY3<30cWSX:cQl@jE@6kE1
 R0
 w1794389070
@@ -120,22 +200,22 @@ w1794389070
 Fcounter8.v
 !i122 0
 L0 9 14
-Z8 VDg1SIo80bB@j0V0VzS_@n1
-Z9 OL;L;2020.4;71
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z10 !s108 1794467122.000000
-Z11 !s107 counter8_tb.v|counter8.v|
-Z12 !s90 -reportprogress|300|counter8.v|counter8_tb.v|
+Z9 !s108 1794489061.000000
+Z10 !s107 counter8_tb.v|counter8.v|
+Z11 !s90 -reportprogress|300|counter8.v|counter8_tb.v|
 !i113 0
-Z13 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R3
 vcounter8_tb
-R6
+R5
 !i10b 1
 !s100 S08mm7;eMz0[XzXi<L2oQ3
-R7
+R6
 IkU2mC>7O2LAm;]S@iO;[O1
 R0
 w1794415224
@@ -143,14 +223,14 @@ w1794415224
 Fcounter8_tb.v
 !i122 0
 L0 3 35
+R7
 R8
-R9
 r1
 !s85 0
 31
+R9
 R10
 R11
-R12
 !i113 0
-R13
+R12
 R3

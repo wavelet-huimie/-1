@@ -10,67 +10,57 @@ z2
 cModel Technology
 Z0 dE:/xdu_fpga_course/zhengshi/q16_tff_counter
 T_opt
-!s110 1794390672
-VSF7V65Aoo<aZcCzQnaRzh3
-Z1 04 14 4 work tff_counter_tb fast 0
-=1-145afc986e21-6af43a90-12a-7ac4
-o-quiet -auto_acc_if_foreign -work work
-Z2 tCvgOpt 0
-n@_opt
-Z3 OL;O;2020.4;71
-R0
-T_opt1
-!s110 1794415374
-Vf8il7@Ka72BHUSgT5G2oG3
-R1
-=1-145afc986e21-6af49b0e-1c0-7344
+!s110 1794489460
+VYC>cWg;Io2]OK^FU[bK?R1
+04 14 4 work tff_counter_tb fast 0
+=1-145afc986e21-6af5bc74-12e-42b0
 o-quiet -auto_acc_if_foreign -work work +acc
-R2
-n@_opt1
-R3
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
 vtff_counter
-Z4 !s110 1794415373
+Z2 !s110 1794489459
 !i10b 1
 !s100 iR0L=?bn`[RDnYJ?j2fVF2
-Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
 I[Do1fkAYn3i>zXD_KXl`Y0
 R0
 w1794390649
 8tff_counter.v
 Ftff_counter.v
-!i122 2
+!i122 0
 L0 11 25
-Z6 VDg1SIo80bB@j0V0VzS_@n1
-Z7 OL;L;2020.4;71
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z8 !s108 1794415373.000000
-Z9 !s107 tff_counter_tb.v|tff_counter.v|
-Z10 !s90 tff_counter.v|tff_counter_tb.v|
+Z6 !s108 1794489458.000000
+Z7 !s107 tff_counter_tb.v|tff_counter.v|
+Z8 !s90 -reportprogress|300|tff_counter.v|tff_counter_tb.v|
 !i113 0
-Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
 vtff_counter_tb
-R4
+R2
 !i10b 1
 !s100 DEGK[^a:OzBo`ZkfRPC>R2
-R5
+R3
 I[@QoO1=G?nCJlGHWS`CT41
 R0
 w1794415276
 8tff_counter_tb.v
 Ftff_counter_tb.v
-!i122 2
+!i122 0
 L0 3 33
-R6
-R7
+R4
+R5
 r1
 !s85 0
 31
+R6
+R7
 R8
-R9
-R10
 !i113 0
-R11
-R2
+R9
+R1

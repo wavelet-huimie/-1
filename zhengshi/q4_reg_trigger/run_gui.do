@@ -15,7 +15,7 @@
 onerror {resume}
 
 # 1) Rebuild work library
-quietly vdel -all -lib work
+if {[file exists work]} { quietly vdel -all -lib work }
 quietly vlib work
 
 # 2) Compile DUT and testbench
@@ -25,7 +25,7 @@ quietly vlog *.v
 vsim -voptargs=+acc reg_trigger_tb
 
 # 4) Add all signals to waveform
-add wave -r /reg_trigger_tb/*
+add wave /reg_trigger_tb/*
 
 # 5) Run
 run -all

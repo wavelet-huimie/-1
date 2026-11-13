@@ -10,67 +10,57 @@ z2
 cModel Technology
 Z0 dE:/xdu_fpga_course/zhengshi/q19_mux4_1
 T_opt
-!s110 1794390999
-V1Q2Wh9Ke[[3<:_loLWli?3
-Z1 04 9 4 work mux4_1_tb fast 0
-=1-145afc986e21-6af43bd7-151-8100
-o-quiet -auto_acc_if_foreign -work work
-Z2 tCvgOpt 0
-n@_opt
-Z3 OL;O;2020.4;71
-R0
-T_opt1
-!s110 1794415386
-VgeVk4F2G]HeGzZKcAU`zT0
-R1
-=1-145afc986e21-6af49b1a-252-609c
+!s110 1794489541
+VO0QL>lP;L`W5F^N;DaH^j0
+04 9 4 work mux4_1_tb fast 0
+=1-145afc986e21-6af5bcc4-3a8-6240
 o-quiet -auto_acc_if_foreign -work work +acc
-R2
-n@_opt1
-R3
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
 vmux4_1
-Z4 !s110 1794415385
+Z2 !s110 1794489539
 !i10b 1
 !s100 h2=66I365b:^8Bi6NhKbb0
-Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
 I[IPWLnkVM>Ao1TBN9O7jR0
 R0
 w1794390971
 8mux4_1.v
 Fmux4_1.v
-!i122 2
+!i122 0
 L0 12 17
-Z6 VDg1SIo80bB@j0V0VzS_@n1
-Z7 OL;L;2020.4;71
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z8 !s108 1794415385.000000
-Z9 !s107 mux4_1_tb.v|mux4_1.v|
-Z10 !s90 mux4_1.v|mux4_1_tb.v|
+Z6 !s108 1794489539.000000
+Z7 !s107 mux4_1_tb.v|mux4_1.v|
+Z8 !s90 -reportprogress|300|mux4_1.v|mux4_1_tb.v|
 !i113 0
-Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
 vmux4_1_tb
-R4
+R2
 !i10b 1
 !s100 J3zjY[9SX`;8nf4m4zJC?3
-R5
+R3
 I?4I8cPz:mEVkCCbzhT1ZP0
 R0
 w1794415293
 8mux4_1_tb.v
 Fmux4_1_tb.v
-!i122 2
+!i122 0
 L0 3 35
-R6
-R7
+R4
+R5
 r1
 !s85 0
 31
+R6
+R7
 R8
-R9
-R10
 !i113 0
-R11
-R2
+R9
+R1

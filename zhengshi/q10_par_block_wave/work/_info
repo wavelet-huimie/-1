@@ -10,16 +10,16 @@ z2
 cModel Technology
 Z0 dE:/xdu_fpga_course/zhengshi/q10_par_block_wave
 T_opt
-!s110 1794471751
-VDi^I103Z;cz?FQ9U5cKHP0
+!s110 1794529989
+VlXaHOTY?U8<l<[SdeKAG?1
 04 11 4 work wave_par_tb fast 0
-=1-145afc986e21-6af57747-3c-84fc
+=1-145afc986e21-6af65ac5-239-7d1c
 o-quiet -auto_acc_if_foreign -work work +acc
 Z1 tCvgOpt 0
 n@_opt
 OL;O;2020.4;71
 vwave_par
-Z2 !s110 1794471749
+Z2 !s110 1794529988
 !i10b 1
 !s100 VBY>HXG<]5P00=b7jhg120
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -35,9 +35,9 @@ Z5 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z6 !s108 1794471749.000000
+Z6 !s108 1794529988.000000
 Z7 !s107 wave_par_tb.v|wave_par.v|
-Z8 !s90 wave_par.v|wave_par_tb.v|
+Z8 !s90 -reportprogress|300|wave_par.v|wave_par_tb.v|
 !i113 0
 Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R1

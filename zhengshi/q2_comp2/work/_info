@@ -10,39 +10,19 @@ z2
 cModel Technology
 Z0 dE:/xdu_fpga_course/zhengshi/q2_comp2
 T_opt
-!s110 1794399153
-V<EZ<V7eTTFO6;dkMK:MZF2
-Z1 04 8 4 work comp2_tb fast 0
-=1-145afc986e21-6af45bb1-1ae-674c
-Z2 o-quiet -auto_acc_if_foreign -work work +acc
-Z3 tCvgOpt 0
+!s110 1794489086
+Vdi1E3Fz@ofNTUPCnGMoh^1
+04 8 4 work comp2_tb fast 0
+=1-145afc986e21-6af5bafe-1bc-81bc
+o-quiet -auto_acc_if_foreign -work work +acc
+Z1 tCvgOpt 0
 n@_opt
-Z4 OL;O;2020.4;71
-R0
-T_opt1
-!s110 1794401149
-V::J@D4cehoh]CdA9n1H:G1
-R1
-=1-145afc986e21-6af4637d-1ef-fb0
-R2
-R3
-n@_opt1
-R4
-R0
-T_opt2
-!s110 1794458673
-VmzQ0nXoa^UO5LCQb:2mjO0
-R1
-=1-145afc986e21-6af5442c-281-48ec
-R2
-R3
-n@_opt2
-R4
+OL;O;2020.4;71
 vcomp2
-Z5 !s110 1794458664
+Z2 !s110 1794489085
 !i10b 1
 !s100 aed9gXYd?:5Ql@9Y_YRFz0
-Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
 IEz^9JnTogK<P_3^]E4caa0
 R0
 w1794389207
@@ -50,22 +30,22 @@ w1794389207
 Fcomp2.v
 !i122 0
 L0 11 13
-Z7 VDg1SIo80bB@j0V0VzS_@n1
-Z8 OL;L;2020.4;71
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z9 !s108 1794458664.000000
-Z10 !s107 comp2_tb.v|comp2.v|
-Z11 !s90 -reportprogress|300|comp2.v|comp2_tb.v|
+Z6 !s108 1794489084.000000
+Z7 !s107 comp2_tb.v|comp2.v|
+Z8 !s90 -reportprogress|300|comp2.v|comp2_tb.v|
 !i113 0
-Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R3
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
 vcomp2_tb
-R5
+R2
 !i10b 1
 !s100 c=3;5h_o4N1ldCTO>nl1]0
-R6
+R3
 IzBRkkR9[4XlbeTYDM9BfH1
 R0
 w1794415227
@@ -73,14 +53,14 @@ w1794415227
 Fcomp2_tb.v
 !i122 0
 L0 3 27
-R7
-R8
+R4
+R5
 r1
 !s85 0
 31
-R9
-R10
-R11
+R6
+R7
+R8
 !i113 0
-R12
-R3
+R9
+R1

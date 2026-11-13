@@ -10,67 +10,57 @@ z2
 cModel Technology
 Z0 dE:/xdu_fpga_course/zhengshi/q18_factorial
 T_opt
-!s110 1794390866
-VVNJ2N2P>0hhlPkCDU>FZf0
-Z1 04 12 4 work factorial_tb fast 0
-=1-145afc986e21-6af43b52-238-1e28
-o-quiet -auto_acc_if_foreign -work work
-Z2 tCvgOpt 0
-n@_opt
-Z3 OL;O;2020.4;71
-R0
-T_opt1
-!s110 1794415382
-VKbaZP>_jDDG6lzQL`4MYb2
-R1
-=1-145afc986e21-6af49b16-272-85bc
+!s110 1794489514
+VJ5>6g32l8X=G^j1jh3Woi1
+04 12 4 work factorial_tb fast 0
+=1-145afc986e21-6af5bcaa-c0-87d8
 o-quiet -auto_acc_if_foreign -work work +acc
-R2
-n@_opt1
-R3
+Z1 tCvgOpt 0
+n@_opt
+OL;O;2020.4;71
 vfactorial
-Z4 !s110 1794415381
+Z2 !s110 1794489512
 !i10b 1
 !s100 GOBQLLAYZ6bGT_fD?KY:[2
-Z5 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
 I9iVXRU4K:z5T7nR@1G86B0
 R0
 w1794390842
 8factorial.v
 Ffactorial.v
-!i122 3
+!i122 0
 L0 10 19
-Z6 VDg1SIo80bB@j0V0VzS_@n1
-Z7 OL;L;2020.4;71
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z8 !s108 1794415381.000000
-Z9 !s107 factorial_tb.v|factorial.v|
-Z10 !s90 factorial.v|factorial_tb.v|
+Z6 !s108 1794489512.000000
+Z7 !s107 factorial_tb.v|factorial.v|
+Z8 !s90 -reportprogress|300|factorial.v|factorial_tb.v|
 !i113 0
-Z11 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R2
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
 vfactorial_tb
-R4
+R2
 !i10b 1
 !s100 XW@BGc8:J_PZD?Wo<Iojo3
-R5
+R3
 I1^9zW;H^dZNFX;7[gf6fN0
 R0
 w1794415288
 8factorial_tb.v
 Ffactorial_tb.v
-!i122 3
+!i122 0
 L0 3 21
-R6
-R7
+R4
+R5
 r1
 !s85 0
 31
+R6
+R7
 R8
-R9
-R10
 !i113 0
-R11
-R2
+R9
+R1
