@@ -10,16 +10,16 @@ z2
 cModel Technology
 Z0 dE:/xdu_fpga_course/zhengshi/q13_vote7
 T_opt
-!s110 1794489380
-V]M2<c3E]MPIL:Gz>[NTmH3
+!s110 1794542086
+V:AWeXz>CE;N1Zh?TdF]md3
 04 8 4 work vote7_tb fast 0
-=1-145afc986e21-6af5bc24-1e6-8e68
+=1-145afc986e21-6af68a06-f5-8358
 o-quiet -auto_acc_if_foreign -work work +acc
 Z1 tCvgOpt 0
 n@_opt
 OL;O;2020.4;71
 vvote7
-Z2 !s110 1794489379
+Z2 !s110 1794542085
 !i10b 1
 !s100 2hiH0=A7dhI95:MeE8h^L3
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -35,7 +35,7 @@ Z5 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z6 !s108 1794489378.000000
+Z6 !s108 1794542085.000000
 Z7 !s107 vote7_tb.v|vote7.v|
 Z8 !s90 -reportprogress|300|vote7.v|vote7_tb.v|
 !i113 0

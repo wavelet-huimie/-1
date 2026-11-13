@@ -10,16 +10,16 @@ z2
 cModel Technology
 Z0 dE:/xdu_fpga_course/zhengshi/q15_bit_counter
 T_opt
-!s110 1794489433
-V7KOA_@m8CYc:38IYW1:KY3
+!s110 1794550699
+V<[`YiAkd:zIV?figZP3:V1
 04 14 4 work bit_counter_tb fast 0
-=1-145afc986e21-6af5bc59-24a-78e8
+=1-145afc986e21-6af6abab-1fd-951c
 o-quiet -auto_acc_if_foreign -work work +acc
 Z1 tCvgOpt 0
 n@_opt
 OL;O;2020.4;71
 vbit_counter
-Z2 !s110 1794489432
+Z2 !s110 1794550698
 !i10b 1
 !s100 o@NVQ2:I];z_ZOEn]8<IR2
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -35,7 +35,7 @@ Z5 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z6 !s108 1794489432.000000
+Z6 !s108 1794550698.000000
 Z7 !s107 bit_counter_tb.v|bit_counter.v|
 Z8 !s90 -reportprogress|300|bit_counter.v|bit_counter_tb.v|
 !i113 0

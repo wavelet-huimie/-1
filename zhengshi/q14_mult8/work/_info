@@ -10,16 +10,16 @@ z2
 cModel Technology
 Z0 dE:/xdu_fpga_course/zhengshi/q14_mult8
 T_opt
-!s110 1794489407
-V22Q7n3>U`C<1eD]jjzHgW0
+!s110 1794550398
+VTo_k0_:Flhgdl_TCmHLI10
 04 8 4 work mult8_tb fast 0
-=1-145afc986e21-6af5bc3e-3e4-5b14
+=1-145afc986e21-6af6aa7e-1e0-5f94
 o-quiet -auto_acc_if_foreign -work work +acc
 Z1 tCvgOpt 0
 n@_opt
 OL;O;2020.4;71
 vmult8
-Z2 !s110 1794489405
+Z2 !s110 1794550397
 !i10b 1
 !s100 Baag:ZcUb7=SGRSc5_ZTG0
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -35,7 +35,7 @@ Z5 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z6 !s108 1794489405.000000
+Z6 !s108 1794550397.000000
 Z7 !s107 mult8_tb.v|mult8.v|
 Z8 !s90 -reportprogress|300|mult8.v|mult8_tb.v|
 !i113 0

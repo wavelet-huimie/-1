@@ -1,0 +1,52 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dE:/xdu_fpga_course/homework2/sim
+vled_flow
+Z1 !s110 1794554090
+!i10b 1
+!s100 id[4[Z:To3IZVH<^`[fl?0
+IdKW<5o3TZU3mAKC6A_VYa2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1794553392
+8../led_flow.v
+F../led_flow.v
+L0 9
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1794554089.000000
+Z5 !s107 ../tb_led_flow.v|../led_flow.v|
+Z6 !s90 -work|work|../led_flow.v|../tb_led_flow.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+vtb_led_flow
+R1
+!i10b 1
+!s100 G<[F?T]kQgb]Ai:RS>O4g1
+IKFD=`nTMakC][Diah]f941
+R2
+R0
+w1794553042
+8../tb_led_flow.v
+F../tb_led_flow.v
+L0 11
+R3
+r1
+!s85 0
+31
+R4
+R5
+R6
+!i113 1
+R7
+R8

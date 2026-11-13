@@ -1,0 +1,13 @@
+# vsim -c -do "run -all; quit -f" tb_led_flow 
+# Start time: 15:15:02 on Nov 13,2026
+# Loading work.tb_led_flow
+# Loading work.led_flow
+# run -all
+# Simulation done. Final ledr = 00011000
+# ** Note: $stop    : ../tb_led_flow.v(46)
+#    Time: 100100 ns  Iteration: 0  Instance: /tb_led_flow
+# Break in Module tb_led_flow at ../tb_led_flow.v line 46
+# Stopped at ../tb_led_flow.v line 46
+#  quit -f
+# End time: 15:15:03 on Nov 13,2026, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

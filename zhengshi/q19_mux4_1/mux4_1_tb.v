@@ -6,7 +6,7 @@ module mux4_1_tb;
     reg  [1:0] sel;
     wire [3:0] y;
 
-    integer i, j;
+    integer i0, i1, i2, i3, isel;
 
     mux4_1 dut (
         .d0  (d0), .d1  (d1), .d2  (d2), .d3  (d3),
@@ -15,20 +15,21 @@ module mux4_1_tb;
     );
 
     initial begin
-        for (sel = 2'b00; sel < 2'b11; sel = sel + 1) begin
-            for (i = 0; i < 256; i = i + 1) begin
-                d0 = i[3:0]; d1 = i[7:4];
-                d2 = (i * 3) & 4'hF; d3 = (i * 7 + 1) & 4'hF;
-                for (j = 0; j < 2; j = j + 1) begin
-                    #1;
+        for (isel = 0; isel < 4; isel = isel + 1) begin
+            sel = isel[1:0];
+            for (i0 = 0; i0 < 16; i0 = i0 + 1) begin
+                for (i1 = 0; i1 < 16; i1 = i1 + 1) begin
+                    for (i2 = 0; i2 < 16; i2 = i2 + 1) begin
+                        for (i3 = 0; i3 < 16; i3 = i3 + 1) begin
+                            d0 = i0[3:0];
+                            d1 = i1[3:0];
+                            d2 = i2[3:0];
+                            d3 = i3[3:0];
+                            #1;
+                        end
+                    end
                 end
             end
-        end
-        sel = 2'b11;
-        for (i = 0; i < 256; i = i + 1) begin
-            d0 = i[3:0]; d1 = i[7:4];
-            d2 = (i * 3) & 4'hF; d3 = (i * 7 + 1) & 4'hF;
-            #1;
         end
 
         $stop;

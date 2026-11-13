@@ -10,57 +10,87 @@ z2
 cModel Technology
 Z0 dE:/xdu_fpga_course/zhengshi/q12_casez_mux
 T_opt
-!s110 1794489353
-ViK3jXBIcO6V;hUAH0E=[S2
-04 12 4 work casez_mux_tb fast 0
-=1-145afc986e21-6af5bc09-e9-548c
-o-quiet -auto_acc_if_foreign -work work +acc
-Z1 tCvgOpt 0
+!s110 1794541403
+VSLe:[>coc8omV=HmUWDS;2
+Z1 04 12 4 work casez_mux_tb fast 0
+=1-145afc986e21-6af6875a-337-7950
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
 n@_opt
-OL;O;2020.4;71
-vcasez_mux
-Z2 !s110 1794489351
-!i10b 1
-!s100 ^ioPaJ38iAMjb>b[Cbi4G1
-Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IM<<7K8WiGk3FQIOYl^0G@1
+Z4 OL;O;2020.4;71
 R0
-w1794390236
+T_opt1
+!s110 1794541853
+V;6aDnRhjJ`UgR8<i;FD[70
+R1
+=1-145afc986e21-6af6891c-384-72e4
+R2
+R3
+n@_opt1
+R4
+R0
+T_opt2
+!s110 1794542223
+VmfJWi6]?Llf<?RAGeAHZi0
+R1
+=1-145afc986e21-6af68a8f-1de-8efc
+R2
+R3
+n@_opt2
+R4
+R0
+T_opt3
+!s110 1794557040
+V6nLlQXLoQ80a6RUf1BLLN0
+R1
+=1-145afc986e21-6af6c46f-321-1f64
+R2
+R3
+n@_opt3
+R4
+vcasez_mux
+Z5 !s110 1794557038
+!i10b 1
+!s100 UmgA<Ea4ORKHTJ_>CPdg`1
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IF_EoMmRN;JQTTLI6VIcoB0
+R0
+w1794554867
 8casez_mux.v
 Fcasez_mux.v
 !i122 0
-L0 14 17
-Z4 VDg1SIo80bB@j0V0VzS_@n1
-Z5 OL;L;2020.4;71
+L0 12 16
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z6 !s108 1794489351.000000
-Z7 !s107 casez_mux_tb.v|casez_mux.v|
-Z8 !s90 -reportprogress|300|casez_mux.v|casez_mux_tb.v|
+Z9 !s108 1794557038.000000
+Z10 !s107 casez_mux_tb.v|casez_mux.v|
+Z11 !s90 -reportprogress|300|casez_mux.v|casez_mux_tb.v|
 !i113 0
-Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-R1
-vcasez_mux_tb
-R2
-!i10b 1
-!s100 [LM0]HA8@NA9^[NI^z>d_0
+Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R3
-IXAc7@??o54dgPjeAI8cNJ3
+vcasez_mux_tb
+R5
+!i10b 1
+!s100 zhHcM7SUNGKQ@9J^f50Li3
+R6
+I=:jXM:4WCzOAWlgFkGE8z2
 R0
-w1794415264
+w1794554878
 8casez_mux_tb.v
 Fcasez_mux_tb.v
 !i122 0
-L0 3 43
-R4
-R5
+L0 3 40
+R7
+R8
 r1
 !s85 0
 31
-R6
-R7
-R8
-!i113 0
 R9
-R1
+R10
+R11
+!i113 0
+R12
+R3

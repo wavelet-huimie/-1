@@ -1,13 +1,13 @@
-Fitter Status : Successful - Wed Nov 11 17:45:16 2026
+Fitter Status : Successful - Fri Nov 13 15:28:53 2026
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Standard Edition
 Revision Name : casez_mux
 Top-level Entity Name : casez_mux
 Family : Cyclone V
 Device : 5CSEBA6U23I7
 Timing Models : Final
-Logic utilization (in ALMs) : 5 / 41,910 ( < 1 % )
+Logic utilization (in ALMs) : 2 / 41,910 ( < 1 % )
 Total registers : 0
-Total pins : 22 / 314 ( 7 % )
+Total pins : 10 / 314 ( 3 % )
 Total virtual pins : 0
 Total block memory bits : 0 / 5,662,720 ( 0 % )
 Total RAM Blocks : 0 / 553 ( 0 % )

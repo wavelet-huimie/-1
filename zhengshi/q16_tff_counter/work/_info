@@ -10,16 +10,16 @@ z2
 cModel Technology
 Z0 dE:/xdu_fpga_course/zhengshi/q16_tff_counter
 T_opt
-!s110 1794489460
-VYC>cWg;Io2]OK^FU[bK?R1
+!s110 1794551010
+V1iihMjbB7RV^Mmi:F;>I60
 04 14 4 work tff_counter_tb fast 0
-=1-145afc986e21-6af5bc74-12e-42b0
+=1-145afc986e21-6af6ace2-53-797c
 o-quiet -auto_acc_if_foreign -work work +acc
 Z1 tCvgOpt 0
 n@_opt
 OL;O;2020.4;71
 vtff_counter
-Z2 !s110 1794489459
+Z2 !s110 1794551009
 !i10b 1
 !s100 iR0L=?bn`[RDnYJ?j2fVF2
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -35,7 +35,7 @@ Z5 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z6 !s108 1794489458.000000
+Z6 !s108 1794551009.000000
 Z7 !s107 tff_counter_tb.v|tff_counter.v|
 Z8 !s90 -reportprogress|300|tff_counter.v|tff_counter_tb.v|
 !i113 0

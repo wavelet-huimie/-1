@@ -10,16 +10,16 @@ z2
 cModel Technology
 Z0 dE:/xdu_fpga_course/zhengshi/q17_bubble_sort
 T_opt
-!s110 1794489487
-VVj3:_V26>68I1jWf>gGcH0
+!s110 1794553471
+VkD<hP@TdX>GNzbeMoo>0Y1
 04 14 4 work bubble_sort_tb fast 0
-=1-145afc986e21-6af5bc8f-e3-8da8
+=1-145afc986e21-6af6b67e-39e-a120
 o-quiet -auto_acc_if_foreign -work work +acc
 Z1 tCvgOpt 0
 n@_opt
 OL;O;2020.4;71
 vbubble_sort
-Z2 !s110 1794489485
+Z2 !s110 1794553470
 !i10b 1
 !s100 NTbin`]k@8]KRJUlVceoc2
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -35,7 +35,7 @@ Z5 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z6 !s108 1794489485.000000
+Z6 !s108 1794553469.000000
 Z7 !s107 bubble_sort_tb.v|bubble_sort.v|
 Z8 !s90 -reportprogress|300|bubble_sort.v|bubble_sort_tb.v|
 !i113 0
