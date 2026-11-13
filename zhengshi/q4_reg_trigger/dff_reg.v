@@ -5,7 +5,6 @@
 // ============================================================================
 
 `timescale 1ns / 1ps
-`default_nettype none
 
 module dff_reg (
     output reg q,      // 输出
@@ -22,5 +21,3 @@ module dff_reg (
     end
 
 endmodule
-
-`default_nettype wire

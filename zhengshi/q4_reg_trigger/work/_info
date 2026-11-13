@@ -10,36 +10,36 @@ z2
 cModel Technology
 Z0 dE:/xdu_fpga_course/zhengshi/q4_reg_trigger
 T_opt
-!s110 1794489139
-Vd?:?[mW_ko<O3a]n^gz3L0
+!s110 1794534500
+VkLUo=UeP^EMoBzOj1da@20
 04 14 4 work reg_trigger_tb fast 0
-=1-145afc986e21-6af5bb33-22d-8e68
+=1-145afc986e21-6af66c64-13b-7374
 o-quiet -auto_acc_if_foreign -work work +acc
 Z1 tCvgOpt 0
 n@_opt
 OL;O;2020.4;71
 vdff_reg
-Z2 !s110 1794489138
+Z2 !s110 1794534499
 !i10b 1
-!s100 l^eT526`oKQCik5jZCXB03
+!s100 `j:W8c6?JXTFY:IO6gH7O3
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IXM43DgYeSO9dTXH?BY5SZ2
+I3`BUUKJX1VVH=iP5f;l3f1
 R0
-w1794389070
+w1794534266
 8dff_reg.v
 Fdff_reg.v
 !i122 0
-Z4 L0 10 15
-Z5 VDg1SIo80bB@j0V0VzS_@n1
-Z6 OL;L;2020.4;71
+L0 9 15
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z7 !s108 1794489138.000000
-Z8 !s107 reg_trigger_tb.v|reg_trigger.v|dff_reg.v|
-Z9 !s90 -reportprogress|300|dff_reg.v|reg_trigger.v|reg_trigger_tb.v|
+Z6 !s108 1794534499.000000
+Z7 !s107 reg_trigger_tb.v|reg_trigger.v|dff_reg.v|
+Z8 !s90 -reportprogress|300|dff_reg.v|reg_trigger.v|reg_trigger_tb.v|
 !i113 0
-Z10 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
 R1
 vreg_trigger
 R2
@@ -52,17 +52,17 @@ w1794389386
 8reg_trigger.v
 Freg_trigger.v
 !i122 0
+L0 10 15
 R4
 R5
-R6
 r1
 !s85 0
 31
+R6
 R7
 R8
-R9
 !i113 0
-R10
+R9
 R1
 vreg_trigger_tb
 R2
@@ -76,14 +76,14 @@ w1794415232
 Freg_trigger_tb.v
 !i122 0
 L0 3 38
+R4
 R5
-R6
 r1
 !s85 0
 31
+R6
 R7
 R8
-R9
 !i113 0
-R10
+R9
 R1

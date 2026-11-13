@@ -1,0 +1,35 @@
+|blocking_reg
+clk => c[0]~reg0.CLK
+clk => c[1]~reg0.CLK
+clk => c[2]~reg0.CLK
+clk => c[3]~reg0.CLK
+clk => b[0]~reg0.CLK
+clk => b[1]~reg0.CLK
+clk => b[2]~reg0.CLK
+clk => b[3]~reg0.CLK
+rst => c[0]~reg0.ACLR
+rst => c[1]~reg0.ACLR
+rst => c[2]~reg0.ACLR
+rst => c[3]~reg0.ACLR
+rst => b[0]~reg0.ACLR
+rst => b[1]~reg0.ACLR
+rst => b[2]~reg0.ACLR
+rst => b[3]~reg0.ACLR
+a[0] => c[0]~reg0.DATAIN
+a[0] => b[0]~reg0.DATAIN
+a[1] => c[1]~reg0.DATAIN
+a[1] => b[1]~reg0.DATAIN
+a[2] => c[2]~reg0.DATAIN
+a[2] => b[2]~reg0.DATAIN
+a[3] => c[3]~reg0.DATAIN
+a[3] => b[3]~reg0.DATAIN
+b[0] <= b[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+b[1] <= b[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+b[2] <= b[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+b[3] <= b[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[0] <= c[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[1] <= c[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[2] <= c[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+c[3] <= c[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

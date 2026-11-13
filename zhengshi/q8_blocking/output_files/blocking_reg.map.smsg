@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at blocking_reg.v(19): always construct contains both blocking and non-blocking assignments File: E:/xdu_fpga_course/zhengshi/q8_blocking/blocking_reg.v Line: 19

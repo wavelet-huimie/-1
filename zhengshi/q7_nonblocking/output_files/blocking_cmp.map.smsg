@@ -1,1 +1,0 @@
-Warning (10268): Verilog HDL information at blocking_cmp.v(42): always construct contains both blocking and non-blocking assignments File: E:/xdu_fpga_course/zhengshi/q7_nonblocking/blocking_cmp.v Line: 42

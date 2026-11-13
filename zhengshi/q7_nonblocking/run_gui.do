@@ -22,10 +22,10 @@ quietly vlib work
 quietly vlog *.v
 
 # 3) Load testbench
-vsim -voptargs=+acc blocking_cmp_tb
+vsim -voptargs=+acc nonblocking_reg_tb
 
 # 4) Add all signals to waveform
-add wave /blocking_cmp_tb/*
+add wave /nonblocking_reg_tb/*
 
 # 5) Run
 run -all

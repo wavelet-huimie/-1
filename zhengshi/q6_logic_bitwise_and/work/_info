@@ -10,16 +10,16 @@ z2
 cModel Technology
 Z0 dE:/xdu_fpga_course/zhengshi/q6_logic_bitwise_and
 T_opt
-!s110 1794489193
-V`lOZkK66;24bz`I1Ta8zV3
+!s110 1794535736
+V86^=<7ffIWN8CXg]31WDF2
 04 20 4 work logic_bitwise_and_tb fast 0
-=1-145afc986e21-6af5bb68-383-cb0
+=1-145afc986e21-6af67138-f5-6d5c
 o-quiet -auto_acc_if_foreign -work work +acc
 Z1 tCvgOpt 0
 n@_opt
 OL;O;2020.4;71
 vlogic_bitwise_and
-Z2 !s110 1794489191
+Z2 !s110 1794535735
 !i10b 1
 !s100 _kR<zb[1Y49WOMUbbBzEd3
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -35,7 +35,7 @@ Z5 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z6 !s108 1794489191.000000
+Z6 !s108 1794535735.000000
 Z7 !s107 logic_bitwise_and_tb.v|logic_bitwise_and.v|
 Z8 !s90 -reportprogress|300|logic_bitwise_and.v|logic_bitwise_and_tb.v|
 !i113 0

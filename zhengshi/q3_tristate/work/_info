@@ -10,16 +10,16 @@ z2
 cModel Technology
 Z0 dE:/xdu_fpga_course/zhengshi/q3_tristate
 T_opt
-!s110 1794489113
-VzfQOJjk6DWcNi1>8=T1DO2
+!s110 1794533405
+V51kVP_gJF`O759D=8Ikjn3
 04 11 4 work tristate_tb fast 0
-=1-145afc986e21-6af5bb18-296-7690
+=1-145afc986e21-6af6681d-f5-7ff4
 o-quiet -auto_acc_if_foreign -work work +acc
 Z1 tCvgOpt 0
 n@_opt
 OL;O;2020.4;71
 vtristate
-Z2 !s110 1794489111
+Z2 !s110 1794533404
 !i10b 1
 !s100 iOmoD>9KHlKN61j=hg]5K0
 Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
@@ -35,7 +35,7 @@ Z5 OL;L;2020.4;71
 r1
 !s85 0
 31
-Z6 !s108 1794489111.000000
+Z6 !s108 1794533404.000000
 Z7 !s107 tristate_tb.v|tristate.v|
 Z8 !s90 -reportprogress|300|tristate.v|tristate_tb.v|
 !i113 0

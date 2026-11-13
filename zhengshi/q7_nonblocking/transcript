@@ -12,49 +12,51 @@
 # //  is prohibited from disclosure under the Trade Secrets Act,
 # //  18 U.S.C. Section 1905.
 # //
-# do {C:\Users\ASUS\AppData\Local\Temp\hw1\auto_q7.do}
+# do run_gui.do
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt".  Locker is ASUS@LAPTOP-QG8LFDUR.
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt1".  Locker is ASUS@LAPTOP-QG8LFDUR.
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt2".  Locker is ASUS@LAPTOP-QG8LFDUR.
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt3".  Locker is ASUS@LAPTOP-QG8LFDUR.
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt4".  Locker is ASUS@LAPTOP-QG8LFDUR.
+# ** Warning: (vdel-134) Unable to remove locked optimized design "_opt5".  Locker is ASUS@LAPTOP-QG8LFDUR.
 # Model Technology ModelSim SE-64 vlog 2020.4 Compiler 2020.10 Oct 13 2020
-# Start time: 21:13:40 on Nov 12,2026
-# vlog -reportprogress 300 blocking_cmp.v blocking_cmp_tb.v 
-# -- Compiling module blocking_cmp
-# -- Compiling module blocking_cmp_tb
+# Start time: 10:34:21 on Nov 13,2026
+# vlog -reportprogress 300 nonblocking_reg.v nonblocking_reg_tb.v 
+# -- Compiling module nonblocking_reg
+# -- Compiling module nonblocking_reg_tb
 # 
 # Top level modules:
-# 	blocking_cmp_tb
-# End time: 21:13:40 on Nov 12,2026, Elapsed time: 0:00:00
+# 	nonblocking_reg_tb
+# End time: 10:34:21 on Nov 13,2026, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vsim -voptargs="+acc" blocking_cmp_tb 
-# Start time: 21:13:40 on Nov 12,2026
+# vsim -voptargs="+acc" nonblocking_reg_tb 
+# Start time: 10:34:21 on Nov 13,2026
 # ** Note: (vsim-3812) Design is being optimized...
-# Loading work.blocking_cmp_tb(fast)
-# Loading work.blocking_cmp(fast)
+# Loading work.nonblocking_reg_tb(fast)
+# Loading work.nonblocking_reg(fast)
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
-#           File in use by: ASUS  Hostname: LAPTOP-QG8LFDUR  ProcessID: 34184
-#           Attempting to use alternate WLF file "./wlft6z59e0".
+#           File in use by: ASUS  Hostname: LAPTOP-QG8LFDUR  ProcessID: 30776
+#           Attempting to use alternate WLF file "./wlft6n2v5e".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlft6z59e0
-# time  a   b_n c_n  b_b c_b
-# ---- ---- ---- ---- ---- ----
-# 26000  0   0   0   0   0
-# 36000  1   1   0   1   1
-# 46000  2   2   1   2   2
-# 56000  3   3   2   3   3
-# 66000  4   4   3   4   4
-# 76000  5   5   4   5   5
-# 86000  6   6   5   6   6
-# 96000  7   7   6   7   7
-# 106000  8   8   7   8   8
-# 116000  9   9   8   9   9
-# 126000  a   a   9   a   a
-# 136000  b   b   a   b   b
+#           Using alternate file: ./wlft6n2v5e
+# time  a   b   c
+# ---- ---- --- ---
+# 26000  0   0   0
+# 36000  1   1   0
+# 46000  2   2   1
+# 56000  3   3   2
+# 66000  4   4   3
+# 76000  5   5   4
+# 86000  6   6   5
+# 96000  7   7   6
+# 106000  8   8   7
+# 116000  9   9   8
+# 126000  a   a   9
+# 136000  b   b   a
 # 
 # Key observations:
-#   b_n == b_b  ?  Yes, <= and = behave the same for a single register
-#   c_b == b_n  ?  Yes, c_b lags a by 1 cycle
-#   c_n lags c_b by 1 cycle ? Yes, c_n lags a by 2 cycles
-# ** Note: $stop    : blocking_cmp_tb.v(47)
-#    Time: 136 ns  Iteration: 0  Instance: /blocking_cmp_tb
-# Break in Module blocking_cmp_tb at blocking_cmp_tb.v line 47
-# .main_pane.wave.interior.cs.body.pw.wf
-# 0 ps
-# 142800 ps
+#   b lags a by 1 clock  (b <= a at posedge)
+#   c lags a by 2 clocks (c <= b uses the old b)
+# ** Note: $stop    : nonblocking_reg_tb.v(43)
+#    Time: 136 ns  Iteration: 0  Instance: /nonblocking_reg_tb
+# Break in Module nonblocking_reg_tb at nonblocking_reg_tb.v line 43

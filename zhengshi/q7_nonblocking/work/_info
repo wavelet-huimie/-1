@@ -10,57 +10,117 @@ z2
 cModel Technology
 Z0 dE:/xdu_fpga_course/zhengshi/q7_nonblocking
 T_opt
-!s110 1794489222
-VM:1gceV]_dIX0dhBNdL:01
-04 15 4 work blocking_cmp_tb fast 0
-=1-145afc986e21-6af5bb85-349-361c
-o-quiet -auto_acc_if_foreign -work work +acc
-Z1 tCvgOpt 0
+!s110 1794536607
+VWILZe;La42[JY]79[k7h70
+Z1 04 18 4 work nonblocking_reg_tb fast 0
+=1-145afc986e21-6af6749f-15d-6c5c
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
 n@_opt
-OL;O;2020.4;71
-vblocking_cmp
-Z2 !s110 1794489220
-!i10b 1
-!s100 F]Z96SAh3DK6RkTHCjc3R2
-Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IIIXi6zoWXoW6iimh9FS0>0
+Z4 OL;O;2020.4;71
 R0
-w1794389684
-8blocking_cmp.v
-Fblocking_cmp.v
-!i122 0
-L0 19 35
-Z4 VDg1SIo80bB@j0V0VzS_@n1
-Z5 OL;L;2020.4;71
-r1
-!s85 0
-31
-Z6 !s108 1794489220.000000
-Z7 !s107 blocking_cmp_tb.v|blocking_cmp.v|
-Z8 !s90 -reportprogress|300|blocking_cmp.v|blocking_cmp_tb.v|
-!i113 0
-Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+T_opt1
+!s110 1794536646
+VZz9HQkQ^DIY:S_O00nm^10
 R1
-vblocking_cmp_tb
+=1-145afc986e21-6af674c5-38f-97a8
 R2
-!i10b 1
-!s100 RYP1WG48;G^EHo13e`SQW2
 R3
-Ikz6T[>G[2aYg8AALjOP7^3
-R0
-w1794416727
-8blocking_cmp_tb.v
-Fblocking_cmp_tb.v
-!i122 0
-L0 3 48
+n@_opt1
 R4
-R5
+R0
+T_opt2
+!s110 1794536686
+VYlDVR?K`l?3YFVb8Od37V3
+R1
+=1-145afc986e21-6af674ee-d4-7838
+R2
+R3
+n@_opt2
+R4
+R0
+T_opt3
+!s110 1794536733
+V`<>fi0TE==Hn0T81iLjSH1
+R1
+=1-145afc986e21-6af6751d-ab-7b08
+R2
+R3
+n@_opt3
+R4
+R0
+T_opt4
+!s110 1794536781
+VzA>=EJWKY6LkmYA]8:CP22
+R1
+=1-145afc986e21-6af6754d-228-229c
+R2
+R3
+n@_opt4
+R4
+R0
+T_opt5
+!s110 1794536819
+VOOTI^mE@PHBQPFPH@iE9B3
+R1
+=1-145afc986e21-6af67573-183-92c0
+R2
+R3
+n@_opt5
+R4
+R0
+T_opt6
+!s110 1794537262
+VEREUSB[Hde]@C<FeM?Gj]1
+R1
+=1-145afc986e21-6af6772e-297-8b1c
+R2
+R3
+n@_opt6
+R4
+vnonblocking_reg
+Z5 !s110 1794537261
+!i10b 1
+!s100 f>Ne=XM2L;[oJBn;B4ozJ1
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IfASiPPo`P3hzEom8S7H5?1
+R0
+w1794536355
+8nonblocking_reg.v
+Fnonblocking_reg.v
+!i122 0
+L0 11 20
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
 r1
 !s85 0
 31
+Z9 !s108 1794537261.000000
+Z10 !s107 nonblocking_reg_tb.v|nonblocking_reg.v|
+Z11 !s90 -reportprogress|300|nonblocking_reg.v|nonblocking_reg_tb.v|
+!i113 0
+Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vnonblocking_reg_tb
+R5
+!i10b 1
+!s100 ZiB6Y0ZNeJ6oo;>nm5hXk2
 R6
+ITRU7lcK5^=Dgn89;A[fnV3
+R0
+w1794536356
+8nonblocking_reg_tb.v
+Fnonblocking_reg_tb.v
+!i122 0
+L0 3 44
 R7
 R8
-!i113 0
+r1
+!s85 0
+31
 R9
-R1
+R10
+R11
+!i113 0
+R12
+R3

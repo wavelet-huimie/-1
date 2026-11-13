@@ -10,57 +10,67 @@ z2
 cModel Technology
 Z0 dE:/xdu_fpga_course/zhengshi/q8_blocking
 T_opt
-!s110 1794489248
-VCGWXBgGaPY<Ejo4ff?eUc2
-04 15 4 work blocking_cmp_tb fast 0
-=1-145afc986e21-6af5bba0-174-61ec
-o-quiet -auto_acc_if_foreign -work work +acc
-Z1 tCvgOpt 0
+!s110 1794536561
+V@behhXY91G4cb4;:D5gUO0
+Z1 04 15 4 work blocking_reg_tb fast 0
+=1-145afc986e21-6af67471-282-3354
+Z2 o-quiet -auto_acc_if_foreign -work work +acc
+Z3 tCvgOpt 0
 n@_opt
-OL;O;2020.4;71
-vblocking_cmp
-Z2 !s110 1794489247
-!i10b 1
-!s100 F]Z96SAh3DK6RkTHCjc3R2
-Z3 !s11b Dg1SIo80bB@j0V0VzS_@n1
-IIIXi6zoWXoW6iimh9FS0>0
+Z4 OL;O;2020.4;71
 R0
-w1794389684
-8blocking_cmp.v
-Fblocking_cmp.v
-!i122 0
-L0 19 35
-Z4 VDg1SIo80bB@j0V0VzS_@n1
-Z5 OL;L;2020.4;71
-r1
-!s85 0
-31
-Z6 !s108 1794489247.000000
-Z7 !s107 blocking_cmp_tb.v|blocking_cmp.v|
-Z8 !s90 -reportprogress|300|blocking_cmp.v|blocking_cmp_tb.v|
-!i113 0
-Z9 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+T_opt1
+!s110 1794536864
+VWgkZfAVT<c_UQ=5[Yb`8o3
 R1
-vblocking_cmp_tb
+=1-145afc986e21-6af675a0-239-98cc
 R2
-!i10b 1
-!s100 RYP1WG48;G^EHo13e`SQW2
 R3
-Ikz6T[>G[2aYg8AALjOP7^3
-R0
-w1794416729
-8blocking_cmp_tb.v
-Fblocking_cmp_tb.v
-!i122 0
-L0 3 48
+n@_opt1
 R4
-R5
+vblocking_reg
+Z5 !s110 1794536863
+!i10b 1
+!s100 SVX?iGOH<dGDe6jmY;@=U3
+Z6 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I0H[5cRDgMz5^0ER<fJOlJ1
+R0
+w1794536357
+8blocking_reg.v
+Fblocking_reg.v
+!i122 0
+L0 11 20
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+Z8 OL;L;2020.4;71
 r1
 !s85 0
 31
+Z9 !s108 1794536863.000000
+Z10 !s107 blocking_reg_tb.v|blocking_reg.v|
+Z11 !s90 -reportprogress|300|blocking_reg.v|blocking_reg_tb.v|
+!i113 0
+Z12 o-L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+vblocking_reg_tb
+R5
+!i10b 1
+!s100 1Uk0lfHV`5ifUCIl73K632
 R6
+IAU=Y8e2bCEBJjZNcRZEGB1
+R0
+w1794536359
+8blocking_reg_tb.v
+Fblocking_reg_tb.v
+!i122 0
+L0 3 44
 R7
 R8
-!i113 0
+r1
+!s85 0
+31
 R9
-R1
+R10
+R11
+!i113 0
+R12
+R3
